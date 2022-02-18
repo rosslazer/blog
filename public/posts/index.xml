@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ross Lazerowitz</title>
+    <link>http://www.rosslazer.com/posts/</link>
+    <description>Recent content in Posts on Ross Lazerowitz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Feb 2022 21:00:51 -0800</lastBuildDate><atom:link href="http://www.rosslazer.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://www.rosslazer.com/posts/my-first-post/</link>
+      <pubDate>Thu, 17 Feb 2022 21:00:51 -0800</pubDate>
+      
+      <guid>http://www.rosslazer.com/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
