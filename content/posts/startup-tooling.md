@@ -1,7 +1,7 @@
 +++
 author = "Ross Lazerowitz"
 title = "Startup Tooling"
-date = "2019-03-11"
+date = "2022-02-18"
 description = "All of the software that makes an early stage startup tick."
 tags = [
     "tooling",
