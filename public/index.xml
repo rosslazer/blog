@@ -6,25 +6,24 @@
     <description>Recent content on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Feb 2022 21:00:51 -0800</lastBuildDate><atom:link href="http://www.rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://www.rosslazer.com/posts/my-first-post/</link>
-      <pubDate>Thu, 17 Feb 2022 21:00:51 -0800</pubDate>
-      
-      <guid>http://www.rosslazer.com/posts/my-first-post/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://www.rosslazer.com/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>http://www.rosslazer.com/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
+      <description>I&amp;rsquo;m currently Head of Product at Observe Inc. This blog was put together to capture my ramblings about product management and product marketing.
+Outside of work you will find me reading and watching anything scifi fiction, brewing beer, and cycling.</description>
+    </item>
+    
+    <item>
+      <title>Startup Tooling</title>
+      <link>http://www.rosslazer.com/posts/my-first-post/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rosslazer.com/posts/my-first-post/</guid>
+      <description>&lt;p&gt;As the first product hire at &lt;a href=&#34;https://observeinc.com/&#34;&gt;Observe Inc.&lt;/a&gt;, I was tasked with bringing in a lot of tooling to solve problems. I’ve put together this list in the hopes of making the journey easier for others. Feel free to submit a PR if there’s more you think I should add.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -33,7 +32,7 @@ Hugo makes use of a variety of open source projects including:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.rosslazer.com/contact/</guid>
-      <description>Follow me, @johndoe.</description>
+      <description>Follow me, @rosslazer or email me at rosslazer dot gmail dot com.</description>
     </item>
     
   </channel>

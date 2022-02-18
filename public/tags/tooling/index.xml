@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ross Lazerowitz</title>
-    <link>http://www.rosslazer.com/posts/</link>
-    <description>Recent content in Posts on Ross Lazerowitz</description>
+    <title>tooling on Ross Lazerowitz</title>
+    <link>http://www.rosslazer.com/tags/tooling/</link>
+    <description>Recent content in tooling on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.rosslazer.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.rosslazer.com/tags/tooling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Startup Tooling</title>
       <link>http://www.rosslazer.com/posts/my-first-post/</link>
