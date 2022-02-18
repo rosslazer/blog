@@ -9,6 +9,8 @@ pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 publishDir = "docs"
+googleAnalytics = 'G-337LD50SHT'
+
 [params]
 author = "Ross Lazerowitz"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
