@@ -10,6 +10,7 @@ pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 publishDir = "docs"
 googleAnalytics = 'G-337LD50SHT'
+enableInlineShortcodes = true
 
 [params]
 author = "Ross Lazerowitz"
@@ -75,7 +76,7 @@ childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
-imgsrc = ["'self'"]
+imgsrc = ["'self'", "https://media.giphy.com" ]
 objectsrc = ["'none'"]
 stylesrc = [
   "'self'",

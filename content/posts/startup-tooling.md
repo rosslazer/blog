@@ -10,6 +10,8 @@ tags = [
 
 +++
 
+![Tool gif](https://media.giphy.com/media/3oKIPqsXYcdjcBcXL2/giphy-downsized-large.gif)
+
 As the first product hire at [Observe Inc.](https://observeinc.com/), I was tasked with bringing in a lot of tooling to solve problems. I’ve put together this list in the hopes of making the journey easier for others. Feel free to submit a PR if there’s more you think I should add.
 <!--more-->
 
