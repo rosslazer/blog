@@ -60,4 +60,4 @@ As the first product hire at [Observe Inc.](https://observeinc.com/), I was task
 * [Riverside.fm](https://riverside.fm/) - High quality video interview recording. If you're using zoom to record a customer interview you're sacrificing a lot of quality.
 ### Blogging
 * [WPEngine](https://wpengine.com/)
-* [Wordpress] (https://wordpress.com/)
+* [Wordpress](https://wordpress.com/)
