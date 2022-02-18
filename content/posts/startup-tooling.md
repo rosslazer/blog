@@ -51,8 +51,8 @@ As the first product hire at [Observe Inc.](https://observeinc.com/), I was task
 * [Marketo](https://www.marketo.com/) - I can't believe this is still best in class in 2022 but here we are.
 * [Google Analytics](https://analytics.google.com/analytics/web/) - I've still barely scratched the service with what this can do.
 * [Reprise](https://www.getreprise.com/) - This lets you build interactive click through demos.
-[Closefactor](https://closefactor.com/) - Enriches our account lists with special factors we can use for targeting and prioritization.
-[Zoominfo](https://www.zoominfo.com/)
+* [Closefactor](https://closefactor.com/) - Enriches our account lists with special factors we can use for targeting and prioritization.
+* [Zoominfo](https://www.zoominfo.com/)
 * [Hootsuite](https://www.hootsuite.com/)
 ### Webinars
 * [Livestorm](https://livestorm.co/) - I really wanted a webinar platform that worked in a browser and had good looking forms. This checks all of the boxes at a very reasonable price point.
