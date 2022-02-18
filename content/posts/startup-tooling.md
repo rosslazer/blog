@@ -19,7 +19,7 @@ As the first product hire at [Observe Inc.](https://observeinc.com/), I was task
 * [Notion](https://www.notion.so/) - Fun fact: For a short time we used notion databases as our project management tool but outgrew it.
 ### Observability & Monitoring
 * [Observe](observeinc.com) - Shameless plug 😜
-* [Uptimerobot] (https://uptimerobot.com/) - No frills synthetic monitoring. Pings all of the things.
+* [Uptimerobot](https://uptimerobot.com/) - No frills synthetic monitoring. Pings all of the things.
 ### Communication
 * [Slack](https://slack.com)
 * [Zoom](https://zoom.us/)
@@ -44,17 +44,17 @@ As the first product hire at [Observe Inc.](https://observeinc.com/), I was task
 ### SalesOps
 * [Gong](https://www.gong.io/) - Out of all of the tools this is the one I didn't know I needed. It records and transcribes all of the sales calls. It's been an invaluable tool for tuning our messaging and hearing from customers.
 * [Salesforce](https://www.salesforce.com/)
-* [Salesloft] (https://salesloft.com/)
+* [Salesloft](https://salesloft.com/)
 ### Marketing
 * [Marketo](https://www.marketo.com/) - I can't believe this is still best in class in 2022 but here we are.
 * [Google Analytics](https://analytics.google.com/analytics/web/) - I've still barely scratched the service with what this can do.
-* [Reprise] (https://www.getreprise.com/) - This lets you build interactive click through demos.
-[Closefactor] (https://closefactor.com/) - Enriches our account lists with special factors we can use for targeting and prioritization.
+* [Reprise](https://www.getreprise.com/) - This lets you build interactive click through demos.
+[Closefactor](https://closefactor.com/) - Enriches our account lists with special factors we can use for targeting and prioritization.
 [Zoominfo](https://www.zoominfo.com/)
 * [Hootsuite](https://www.hootsuite.com/)
 ### Webinars
-* [Livestorm] (https://livestorm.co/) - I really wanted a webinar platform that worked in a browser and had good looking forms. This checks all of the boxes at a very reasonable price point.
-* [Frame.io] (https://www.frame.io/) - Video review software we use to give feedback to video editors.
+* [Livestorm](https://livestorm.co/) - I really wanted a webinar platform that worked in a browser and had good looking forms. This checks all of the boxes at a very reasonable price point.
+* [Frame.io](https://www.frame.io/) - Video review software we use to give feedback to video editors.
 * [Riverside.fm](https://riverside.fm/) - High quality video interview recording. If you're using zoom to record a customer interview you're sacrificing a lot of quality.
 ### Blogging
 * [WPEngine](https://wpengine.com/)
