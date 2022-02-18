@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ross Lazerowitz</title>
+    <link>http://www.rosslazer.com/posts/</link>
+    <description>Recent content in Posts on Ross Lazerowitz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://www.rosslazer.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Startup Tooling</title>
+      <link>http://www.rosslazer.com/posts/my-first-post/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.rosslazer.com/posts/my-first-post/</guid>
+      <description>&lt;p&gt;As the first product hire at &lt;a href=&#34;https://observeinc.com/&#34;&gt;Observe Inc.&lt;/a&gt;, I was tasked with bringing in a lot of tooling to solve problems. I’ve put together this list in the hopes of making the journey easier for others. Feel free to submit a PR if there’s more you think I should add.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
