@@ -20,7 +20,7 @@ As the first product hire at [Observe Inc.](https://observeinc.com/), I was task
 ### Wiki
 * [Notion](https://www.notion.so/) - Fun fact: For a short time we used notion databases as our project management tool but outgrew it.
 ### Observability & Monitoring
-* [Observe](observeinc.com) - Shameless plug 😜
+* [Observe](https://observeinc.com/) - Shameless plug 😜
 * [Uptimerobot](https://uptimerobot.com/) - No frills synthetic monitoring. Pings all of the things.
 ### Communication
 * [Slack](https://slack.com)
