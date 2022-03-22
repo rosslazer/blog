@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' https://media.giphy.com; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://cdn.jsdelivr.net/ https://www.googletagmanager.com/; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
+
+    
+
+    <meta name="author" content="Ross Lazerowitz">
+    <meta name="description" content="A retrospective on usage-based pricing (Part 1)">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://www.rosslazer.com/images/snowflake-usage.png"/>
+
+<meta name="twitter:title" content="Use It or Lose It: Why Usage-Based Pricing (Part 1)"/>
+<meta name="twitter:description" content="A retrospective on usage-based pricing (Part 1)"/>
+
+    <meta property="og:title" content="Use It or Lose It: Why Usage-Based Pricing (Part 1)" />
+<meta property="og:description" content="A retrospective on usage-based pricing (Part 1)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.rosslazer.com/posts/use-it-or-lose-it-p1/" /><meta property="og:image" content="http://www.rosslazer.com/images/snowflake-usage.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-02-22T00:00:00+00:00" />
+
+
+
+    <title>
+  Use It or Lose It: Why Usage-Based Pricing (Part 1) · Ross Lazerowitz
+</title>
+
+    
+      <link rel="canonical" href="http://www.rosslazer.com/posts/use-it-or-lose-it-p1/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.002ee2378e14c7a68f1f0a53d9694ed252090987c4e768023fac694a4fc5f793.css" integrity="sha256-AC7iN44Ux6aPHwpT2WlO0lIJCYfE52gCP6xpSk/F95M=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.92.2" />
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Ross Lazerowitz
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://www.rosslazer.com/posts/use-it-or-lose-it-p1/">
+              Use It or Lose It: Why Usage-Based Pricing (Part 1)
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2022-02-22T00:00:00Z'>
+                February 22, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/gtm/">GTM</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/startup-life/">startup-life</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/usage-based-pricing/">usage-based-pricing</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Inspired much by the success of companies like Snowflake, <a href="https://observeinc.com/">Observe Inc.</a> set out to build a usage based pricing model. I’ve learned a ton from this process and continue to do so each week. This blog series will catalog our journey and things I wish we had known on day 1. It’s broken up into 3 parts:</p>
+<ol>
+<li>Why Usage Based Pricing?</li>
+<li>How you implement it</li>
+<li>Its challenges</li>
+</ol>
+<h1 id="part-1---why-usage-based-pricing">
+  Part 1 - Why Usage-Based Pricing
+  <a class="heading-link" href="#part-1---why-usage-based-pricing">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h2 id="aligned-incentives-are-the-end-of-shelfware">
+  Aligned incentives are the end of shelfware
+  <a class="heading-link" href="#aligned-incentives-are-the-end-of-shelfware">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>“<a href="https://www.techtarget.com/searchsap/definition/shelfware#:~:text=Shelfware%20is%20slang%20for%20software,of%20working%20with%20legacy%20applications.">Shelfware</a>” is a meme that’s plagued enterprise software since its incarnation. It’s a dark secret that lots of software never gets deployed. In the world of on-premise software licenses, it’s not uncommon for licenses to get thrown in as part of a larger deal. The root of this problem is misaligned incentives. For example, imagine retail software that charges by brick and mortar location. That company is going to get paid irrespective of how much each store really takes advantage of said software. In their eyes simply deploying it to a store means they are going to get paid. It doesn’t matter if anyone actually uses it.</p>
+<p>In the world of usage-based pricing, the customer and vendor incentives are aligned. If a customer does not use the software, the vendor will not make any money. They are incentivized to build software their customers will actually use. However, based on consumption patterns we’ve seen that vendors are also incentivized to improve value to encourage usage (more on that shortly).</p>
+<h2 id="newfound-elasticity">
+  Newfound Elasticity
+  <a class="heading-link" href="#newfound-elasticity">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Every shift in computer infrastructure has been accompanied by a coorleating pricing model. Let’s look at the evolution of software pricing.</p>
+<h3 id="perpetual-licensing">
+  Perpetual Licensing
+  <a class="heading-link" href="#perpetual-licensing">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>When the only way to run software was to buy the servers they ran on, it made sense to treat them like hardware as a Capital Expenditure. Customers would buy a version of said software with a big principal outlay in the first year, then pay 10-20% of that cost each year for maintenance and support. Usually, four years in a “refresh” would happen due to a newer version or a change in the license. This is when the dreadful software license audit would take place and coincided with a datacenter infrastructure overhaul.</p>
+<h3 id="subscription">
+  Subscription
+  <a class="heading-link" href="#subscription">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>A myriad of trends made it economical and acceptable to purchase software as a managed service. Salesforce was one of the original kings of this — by getting in the door with a single salesperson and charging per user. Subscription software usually starts out cheaper than purchasing a pereptual license but can get out of control over time as consumption of the software increases. Given the opaqueness of the unit (i.e. user, server, GB ingested, API calls, etc ) and the need of the vendor to cover fixed costs, it’s difficult to optimize.</p>
+<h3 id="usage">
+  Usage
+  <a class="heading-link" href="#usage">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Something changed profoundly with the advent of the cloud — suddenly every company had unlimited compute resources. Even better, they only need to pay when they are using those resources. With that constraint removed software engineers can now build software that is elastic. It’s simple — you charge customers only when they use the system. When they aren&rsquo;t using the system you don’t need to bill them because there is no cost to you. All of this is possible so long as you build software that can take advantage of the elasticity of the cloud.</p>
+<p><img src="/images/snowflake-usage.png" alt="Snowflake Usage"></p>
+<p><em><a href="https://www.snowflake.com/blog/how-usage-based-pricing-delivers-a-budget-friendly-cloud-data-warehouse/">*Credit - How Usage-Based Pricing Delivers a Budget-Friendly Cloud Data Warehouse</a></em></p>
+<h2 id="jevons-paradox">
+  Jevons Paradox
+  <a class="heading-link" href="#jevons-paradox">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>On March 2nd, Snowflake held their earnings call and their stock fell 25% in after-hours wiping out billions in market capitalization. Why did they get dinged so badly while growing at 102% at $359.6 million? Because they decided to pass on efficiency tweaks to their customers sacrificing short-term growth. As Eric J. Savitz of Barron’s commented on the earnings,  “CEO Frank Slootman explained in an interview that the company made a tweak to its software in January that allows customers to do the same work with fewer resources.”</p>
+<p>This is a bet on something called <a href="https://en.wikipedia.org/wiki/Jevons_paradox#:~:text=In%20economics%2C%20the%20Jevons%20paradox,rises%20due%20to%20increasing%20demand.">Jevons Paradox</a>:</p>
+<blockquote>
+<p>“Morgan Stanley analyst Keith Weiss said in a research note that Snowflake is banking on a theory called Jevons’ Paradox, named for the 19th century English economist William Stanley Jevons. The idea is that as technological progress increases the efficiency with which a resource is used, the rate of consumption rises due to increasing demand.” - <a href="https://www.barrons.com/articles/snowflake-stock-falls-as-a-software-tweak-hits-revenue-analysts-remain-bullish-51646333077?reflink=article_emailShare">Snowflake Stock Falls as a Software Tweak Hits Revenue. Analysts Remain Bullish.</a></p>
+</blockquote>
+<p>If that sounds crazy to you look no further than Amazing Web Services, which is notorious for accounting price decreases. This report from the <a href="https://www.iceaaonline.com/ready/wp-content/uploads/2019/06/CC06-Paper-Forecasting-Future-Amazon-Web-Services-Pricing-Souiri.pdf">NRO and CAAG</a> outlines the cost decreases for storage on AWS:</p>
+<p><img src="/images/s3-jevon.png" alt="Jevons Paradox">
+<em><a href="https://www.iceaaonline.com/ready/wp-content/uploads/2019/06/CC06-Paper-Forecasting-Future-Amazon-Web-Services-Pricing-Souiri.pdf">*Credit - Forecasting Future Amazon Web Services Pricing</a></em></p>
+<p>If you think it’s crazy to decrease the price of a service in the hopes of making more money take a look at the revenue growth of AWS. Last year they grew revenues 39.5% to $17.78 billion. That kind of growth is almost unprecedented in the computer infrastructure business.</p>
+<p>Usage-based pricing lets you take advantage of this paradox.</p>
+<p><img src="/images/aws-rev.jpeg" alt="Jevons Paradox"></p>
+<p><em><a href="https://www.nextplatform.com/2022/02/04/millions-pay-aws-to-give-amazon-an-insurmountable-it-advantage/">*Credit - *MILLIONS PAY AWS TO GIVE AMAZON AN INSURMOUNTABLE IT ADVANTAGE</a></em></p>
+<h2 id="til-next-time">
+  ‘Til next time
+  <a class="heading-link" href="#til-next-time">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>In part 2 I’m going to cover how to actually implement usage-based pricing. If you choose to go down this path a lot of technical and process work lies ahead.</p>
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+
+
+  <section class="container">
+    ©
+    
+    2022
+     Ross Lazerowitz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+  
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.39a51230dce2ac866c049b52573e38bf60666af4bc63c1bdf203b9b2d95b1cd6.js" integrity="sha256-OaUSMNzirIZsBJtSVz44v2BmavS8Y8G98gO5stlbHNY="></script>
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-337LD50SHT"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-337LD50SHT', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-337LD50SHT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-337LD50SHT');
+</script>
+
+  </body>
+
+</html>
