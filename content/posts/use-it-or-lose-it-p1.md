@@ -1,9 +1,9 @@
 +++
 author = "Ross Lazerowitz"
 title = "Use It or Lose It: Why Usage-Based Pricing (Part 1)"
-date = "2022-02-22"
+date = "2022-03-22"
 description = "A retrospective on usage-based pricing (Part 1)"
-images = ["/images/snowflake-usage.png"]
+images = ["/images/snowflake-usage.jpeg"]
 tags = [
     "GTM",
     "startup-life",
@@ -36,7 +36,7 @@ A myriad of trends made it economical and acceptable to purchase software as a m
 ### Usage
 Something changed profoundly with the advent of the cloud — suddenly every company had unlimited compute resources. Even better, they only need to pay when they are using those resources. With that constraint removed software engineers can now build software that is elastic. It’s simple — you charge customers only when they use the system. When they aren't using the system you don’t need to bill them because there is no cost to you. All of this is possible so long as you build software that can take advantage of the elasticity of the cloud.
 
-![Snowflake Usage](/images/snowflake-usage.png)
+![Snowflake Usage](/images/snowflake-usage.jpeg)
 
 *[*Credit - How Usage-Based Pricing Delivers a Budget-Friendly Cloud Data Warehouse](https://www.snowflake.com/blog/how-usage-based-pricing-delivers-a-budget-friendly-cloud-data-warehouse/)*
 
