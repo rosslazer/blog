@@ -28,7 +28,7 @@ In the world of usage-based pricing, the customer and vendor incentives are alig
 Every shift in computer infrastructure has been accompanied by a correlating pricing model. Let’s look at the evolution of software pricing.
 
 ### Perpetual Licensing
-When the only way to run software was to buy the servers they ran on, it made sense to treat them like hardware as a Capital Expenditure. Customers would buy a version of said software with a big principal outlay in the first year, then pay 10-20% of that cost each year for maintenance and support. Usually, four years in a “refresh” would happen due to a newer version or a change in the license. This is when the dreadful software license audit would take place and coincided with a datacenter infrastructure overhaul.
+When the only way to run software was to buy the servers it ran on, it made sense to treat software like hardware as a Capital Expenditure. Customers would buy a version of said software with a big principal outlay in the first year, then pay 10-20% of that cost each year for maintenance and support. Usually, four years in a “refresh” would happen due to a newer version or a change in the license. This is when the dreadful software license audit would take place and coincided with a datacenter infrastructure overhaul.
 
 ### Subscription
 A myriad of trends made it economical and acceptable to purchase software as a managed service. Salesforce was one of the original kings of this — by getting in the door with a single salesperson and charging per user. Subscription software usually starts out cheaper than purchasing a pereptual license but can get out of control over time as consumption of the software increases. Given the opaqueness of the unit (i.e. user, server, GB ingested, API calls, etc ) and the need of the vendor to cover fixed costs, it’s difficult to optimize.
@@ -48,7 +48,7 @@ This is a bet on something called [Jevons Paradox](https://en.wikipedia.org/wiki
 > “Morgan Stanley analyst Keith Weiss said in a research note that Snowflake is banking on a theory called Jevons’ Paradox, named for the 19th century English economist William Stanley Jevons. The idea is that as technological progress increases the efficiency with which a resource is used, the rate of consumption rises due to increasing demand.” - [Snowflake Stock Falls as a Software Tweak Hits Revenue. Analysts Remain Bullish.](https://www.barrons.com/articles/snowflake-stock-falls-as-a-software-tweak-hits-revenue-analysts-remain-bullish-51646333077?reflink=article_emailShare)
 
 
-If that sounds crazy to you look no further than Amazing Web Services, which is notorious for accounting price decreases. This report from the [NRO and CAAG](https://www.iceaaonline.com/ready/wp-content/uploads/2019/06/CC06-Paper-Forecasting-Future-Amazon-Web-Services-Pricing-Souiri.pdf) outlines the cost decreases for storage on AWS:
+If that sounds crazy to you look no further than Amazon Web Services, which is notorious for accounting price decreases. This report from the [NRO and CAAG](https://www.iceaaonline.com/ready/wp-content/uploads/2019/06/CC06-Paper-Forecasting-Future-Amazon-Web-Services-Pricing-Souiri.pdf) outlines the cost decreases for storage on AWS:
 
 ![Jevons Paradox](/images/s3-jevon.png)
 *[*Credit - Forecasting Future Amazon Web Services Pricing](https://www.iceaaonline.com/ready/wp-content/uploads/2019/06/CC06-Paper-Forecasting-Future-Amazon-Web-Services-Pricing-Souiri.pdf)*
