@@ -25,7 +25,7 @@ Inspired much by the success of companies like Snowflake, [Observe Inc.](https:/
 In the world of usage-based pricing, the customer and vendor incentives are aligned. If a customer does not use the software, the vendor will not make any money. They are incentivized to build software their customers will actually use. However, based on consumption patterns we’ve seen that vendors are also incentivized to improve value to encourage usage (more on that shortly).
 
 ## Newfound Elasticity
-Every shift in computer infrastructure has been accompanied by a coorleating pricing model. Let’s look at the evolution of software pricing.
+Every shift in computer infrastructure has been accompanied by a correlating pricing model. Let’s look at the evolution of software pricing.
 
 ### Perpetual Licensing
 When the only way to run software was to buy the servers they ran on, it made sense to treat them like hardware as a Capital Expenditure. Customers would buy a version of said software with a big principal outlay in the first year, then pay 10-20% of that cost each year for maintenance and support. Usually, four years in a “refresh” would happen due to a newer version or a change in the license. This is when the dreadful software license audit would take place and coincided with a datacenter infrastructure overhaul.
