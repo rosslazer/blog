@@ -51,7 +51,7 @@ There are roughly two internal personas to consider:
 * Sales - They want to know what kind of economic situation they are dealing with when they walk into a customer. The usage reports your tooling produces are going to be fodder for the business case they need to put together. Over time consider adding automated reporting on competitive pricing models.
 
 ### Customers
-After you’ve figured out what reports to build with your internal team, you’re going to need to make them available to your customers. Many tools begin and end this experience with a display of the units consumed. I would argue that is a suboptimal experience. You should look to give users a drill down into how they are consuming those units. This can be achieved by building a system or using an embeddable commercially available BI tool. Since Observe is a data analytics tool by nature we just feed usage data into it and do not utilize any other tools for this.
+After you’ve figured out what reports to build with your internal team, you’re going to need to make them available to your customers. Many tools begin and end this experience with a display of the units consumed. I would argue that is a suboptimal experience. You should look to give users a drill down into how they are consuming those units. This can be achieved by building a system or using an embeddable commercially available BI tool. Since [Observe](https://www.observeinc.com) is a data analytics tool by nature we just feed usage data into it and do not utilize any other tools for this.
 
 Different kinds of users are going to have different kinds of reporting needs:
 * Administrators - Your admins are going to be accountable for the cost of your tool. In addition to high level usage reporting, they are going to need to be able to drill down and explain specific usage patterns. If there’s a big spike in usage, do they have the necessary reporting and data to figure out why?
@@ -66,4 +66,4 @@ At this point, you have the systems in place to report and analyze usage. **Now 
 * Accounting - Some sort of export of a ledger for your accounting team. Many systems will export a format that Quickbooks can pick up. You can determine how to recognize revenue inside of the accounting system.
 
 ## There are nothing but challenges ahead
-In part 3 I’m going to cover the major challenges with implementing a usage-based pricing model. So much has changed at Observe since I wrote this piece 4 months ago that I had to throw out my part 3 draft. Stay tuned!
+In part 3 I’m going to cover the major challenges with implementing a usage-based pricing model. So much has changed at [Observe](https://www.observeinc.com) since I wrote this piece 4 months ago that I had to throw out my part 3 draft. Stay tuned!
