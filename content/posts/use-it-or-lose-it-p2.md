@@ -1,7 +1,7 @@
 +++
 author = "Ross Lazerowitz"
 title = "Use It or Lose It: Implementing Usage-Based Pricing (Part 2)"
-date = "2022-03-22"
+date = "2022-08-17"
 description = "A retrospective on usage-based pricing (Part 2)"
 images = ["/images/usage-dashboard.png"]
 tags = [
