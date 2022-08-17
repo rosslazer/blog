@@ -65,5 +65,8 @@ At this point, you have the systems in place to report and analyze usage. **Now 
 * **Configure Price Quote (CPQ)** - This mostly applies to companies with an enterprise sales motion. A [CPQ system](https://en.wikipedia.org/wiki/Configure,_price_and_quote) is what salespeople will use to generate quotes. It usually has tons of configuration and approval flows that handle things like discounting and promotional packages. The interface gets embedded into a CRM.
 * **Accounting** - Some sort of export of a ledger for your accounting team. Many systems will export a format that Quickbooks can pick up. You can determine how to recognize revenue inside of the accounting system.
 
+![Part 2 Header](/images/billing-process.jpg)
+*An early sketch of our quote to invoice process*
+
 ## There are nothing but challenges ahead
 In part 3, I’m going to cover the major challenges with implementing a usage-based pricing model. So [much has changed at Observe](https://www.observeinc.com/blog/observe-direct-spring-2022-announcements-funding-and-features/) since I wrote this piece 4 months ago that I had to throw out my part 3 draft. Stay tuned!
