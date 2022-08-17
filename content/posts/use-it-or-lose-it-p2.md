@@ -3,7 +3,7 @@ author = "Ross Lazerowitz"
 title = "Use It or Lose It: Implementing Usage-Based Pricing (Part 2)"
 date = "2022-08-17"
 description = "A retrospective on usage-based pricing (Part 2)"
-images = ["/images/usage-dashboard.png"]
+images = ["/images/use-it-p2-header.png"]
 tags = [
     "GTM",
     "startup-life",
@@ -16,6 +16,7 @@ In [part 1](/posts/use-it-or-lose-it-p1) I talked about why you should implement
 <!--more-->
 
 # Part 2 -  Implementing Usage-Based Pricing
+![Part 2 Header](/images/use-it-p2-header.png)
 ## Step 1: Go-To-Market
 It’s unfair to think of this part as a linear step, but you’re going to need to think about how people will use all of these pieces together. There are some pretty big questions you’re going to need to think about: 
 * How do you educate your field and engineering teams on how to use all of this stuff?
