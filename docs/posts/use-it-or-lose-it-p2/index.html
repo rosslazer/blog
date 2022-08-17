@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' https://media.giphy.com; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://cdn.jsdelivr.net/ https://www.googletagmanager.com/; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
+
+    
+
+    <meta name="author" content="Ross Lazerowitz">
+    <meta name="description" content="A retrospective on usage-based pricing (Part 2)">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://rosslazer.com/images/usage-dashboard.png"/>
+
+<meta name="twitter:title" content="Use It or Lose It: Implementing Usage-Based Pricing (Part 2)"/>
+<meta name="twitter:description" content="A retrospective on usage-based pricing (Part 2)"/>
+
+    <meta property="og:title" content="Use It or Lose It: Implementing Usage-Based Pricing (Part 2)" />
+<meta property="og:description" content="A retrospective on usage-based pricing (Part 2)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rosslazer.com/posts/use-it-or-lose-it-p2/" /><meta property="og:image" content="https://rosslazer.com/images/usage-dashboard.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-22T00:00:00+00:00" />
+
+
+
+    <title>
+  Use It or Lose It: Implementing Usage-Based Pricing (Part 2) · Ross Lazerowitz
+</title>
+
+    
+      <link rel="canonical" href="https://rosslazer.com/posts/use-it-or-lose-it-p2/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.002ee2378e14c7a68f1f0a53d9694ed252090987c4e768023fac694a4fc5f793.css" integrity="sha256-AC7iN44Ux6aPHwpT2WlO0lIJCYfE52gCP6xpSk/F95M=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.101.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Ross Lazerowitz
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://rosslazer.com/posts/use-it-or-lose-it-p2/">
+              Use It or Lose It: Implementing Usage-Based Pricing (Part 2)
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2022-03-22T00:00:00Z'>
+                March 22, 2022
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              6-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/gtm/">GTM</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/startup-life/">startup-life</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/usage-based-pricing/">usage-based-pricing</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>In <a href="/posts/use-it-or-lose-it-p1">part 1</a> I talked about why you should implement a usage-based pricing model, now let’s get into the meat of how you actually implement one.</p>
+<h1 id="part-2----implementing-usage-based-pricing">
+  Part 2 -  Implementing Usage-Based Pricing
+  <a class="heading-link" href="#part-2----implementing-usage-based-pricing">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h2 id="step-1-go-to-market">
+  Step 1: Go-To-Market
+  <a class="heading-link" href="#step-1-go-to-market">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>It’s unfair to think of this part as a linear step, but you’re going to need to think about how people will use all of these pieces together. There are some pretty big questions you’re going to need to think about:</p>
+<ul>
+<li>How do you educate your field and engineering teams on how to use all of this stuff?</li>
+<li>How will you help your customers understand a novel pricing model and how to optimize it?</li>
+<li>How do you compare your pricing to competitors with such a different structure?</li>
+</ul>
+<p>Personally, I have not come across general answers to these questions. The answers are going to be very specific to the kind of product and market you are going after. The best I’ve come up with is that you can’t figure this out in a vacuum. A tight feedback loop with the field and engineering teams is essential.</p>
+<h2 id="step-2-decide-what-to-meter-on">
+  Step 2. Decide what to meter on
+  <a class="heading-link" href="#step-2-decide-what-to-meter-on">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>This can be the most challenging part of implementing the model. You should pick a unit that satisfies the following criteria:</p>
+<ul>
+<li>Easily understood by your target customer. E.x. CPU time, number of API calls, etc</li>
+<li>Easily measurable</li>
+<li>Easily Controllable - How does a customer use less or more?</li>
+<li>Bear some relationship to your COGS (only applies if you have a resource-intensive product) - You might need to build your entire system with this unit in mind.</li>
+</ul>
+<h2 id="step-3-build-the-instrumentation-pipeline">
+  Step 3: Build the instrumentation Pipeline
+  <a class="heading-link" href="#step-3-build-the-instrumentation-pipeline">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>You need to have a reliable instrumentation collection pipeline. One of our earlier attempts at this failed because we were not measuring anything with intent. We had no data model, centralized data reporting, and all of the data had to be joined together at query time.</p>
+<p>In the second iteration of our instrumentation, we worked with engineering to build a proper data model that made analysis and reporting easy and relibale. Since our unit is a proxy for query time, we built wrappers in our query execution code. This way engineers don’t have to worry about emitting this information when working on new functionality. All of this data gets stored in a transactional DB before being persisted in a data warehouse. We retain all of the raw data in a <a href="https://en.wikipedia.org/wiki/Fact_table">fact table</a>. Summaries are run on top of these tables for reporting purposes.</p>
+<h2 id="step-4-reporting">
+  Step 4: Reporting
+  <a class="heading-link" href="#step-4-reporting">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>It’s great to collect data but you need to make sense of it for humans. There are two personas you need to consider when designing your reporting system: internal teams (support, sales, engineering, etc) and customers.</p>
+<p><img src="/images/usage-dashboard.png" alt="Our Reporting System">
+<em>A screenshot of our in-product usage dashboard</em></p>
+<h3 id="internal-teams">
+  Internal Teams
+  <a class="heading-link" href="#internal-teams">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>I recommend starting here. The reason is simple - it’s going to take a few iterations to figure out the questions you want to answer and their respective data visualizations. Using a commercial or open-source BI tool you can begin to build reporting and dashboards that summarize usage. Your sales team will get you the feedback you need on the reports you need to build as they try and quote customers. It’s also important to note that internal teams will need to report across multiple customers. So their reporting needs are going to be a little different.</p>
+<p>There are roughly two internal personas to consider:</p>
+<ul>
+<li>Engineering - Their objective is cost efficiency and COGS. If they can measure it they can optimize it. Without good reporting you’re going to have an uncontrolled system and it’s going to drive your customers and sales team up the wall.</li>
+<li>Sales - They want to know what kind of economic situation they are dealing with when they walk into a customer. The usage reports your tooling produces are going to be fodder for the business case they need to put together. Over time consider adding automated reporting on competitive pricing models.</li>
+</ul>
+<h3 id="customers">
+  Customers
+  <a class="heading-link" href="#customers">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>After you’ve figured out what reports to build with your internal team, you’re going to need to make them available to your customers. Many tools begin and end this experience with a display of the units consumed. I would argue that is a suboptimal experience. You should look to give users a drill down into how they are consuming those units. This can be achieved by building a system or using an embeddable commercially available BI tool. Since Observe is a data analytics tool by nature we just feed usage data into it and do not utilize any other tools for this.</p>
+<p>Different kinds of users are going to have different kinds of reporting needs:</p>
+<ul>
+<li>Administrators - Your admins are going to be accountable for the cost of your tool. In addition to high level usage reporting, they are going to need to be able to drill down and explain specific usage patterns. If there’s a big spike in usage, do they have the necessary reporting and data to figure out why?</li>
+<li>Casual Users - Exposing too much usage information to a casual user may discourage use of the product. However it is critical to communicate the impact of their actions to them. For example, if a user is going to run a very expensive operation, there should be some sort of feedback and confirmation to them.</li>
+<li>Finance - The person writing the check is going to want high level invoice data. Procurement teams will need some kind of forecast so they can do planning.</li>
+</ul>
+<h2 id="step-5-business-logic">
+  Step 5: Business Logic
+  <a class="heading-link" href="#step-5-business-logic">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>At this point, you have the systems in place to report and analyze usage. <strong>Now it’s time to get paid</strong>. There are a few pieces of the puzzle you will need to put together to do so. You can certainly build all of this but there are commercial software providers who make this process easy like Ordway Labs, Metronome, Octane, and others. Generally speaking, there are four categories of business logic:</p>
+<ul>
+<li>Metering - This is how you keep track of customer entitlements and “burn.” Usage data is evaluated to determine what a customer consumed. In some configurations customers may prebuy a credit pool and you will need to track the burn. E.x. a customer who purchased 100 credits and burned 5 today, now they have 95 credits.</li>
+<li>Invoicing - How you get paid and help customers track usage. Automatically generate invoices that are sent to the customer. If payment is required send them a form for a credit card or a bank transfer. Although your product may have a way to explore usage, this high-level summary is needed for accounting teams.</li>
+<li>Configure Price Quote (CPQ) - This mostly applies to companies with an enterprise sales motion. A CPQ system is what salespeople will use to generate quotes. It usually has tons of configuration and approval flows that handle things like discounting and promotional packages. The interface gets embedded into a CRM.</li>
+<li>Accounting - Some sort of export of a ledger for your accounting team. Many systems will export a format that Quickbooks can pick up. You can determine how to recognize revenue inside of the accounting system.</li>
+</ul>
+<h2 id="there-are-nothing-but-challenges-ahead">
+  There are nothing but challenges ahead
+  <a class="heading-link" href="#there-are-nothing-but-challenges-ahead">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>In part 3 I’m going to cover the major challenges with implementing a usage-based pricing model. So much has changed at Observe since I wrote this piece 4 months ago that I had to throw out my part 3 draft. Stay tuned!</p>
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+
+
+  <section class="container">
+    ©
+    
+    2022
+     Ross Lazerowitz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+  
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.9cf2dbf9b6989ef8eae941ffb4231c26d1dc026bca38f1d19fdba50177d8a9ac.js" integrity="sha256-nPLb&#43;baYnvjq6UH/tCMcJtHcAmvKOPHRn9ulAXfYqaw="></script>
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-337LD50SHT"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-337LD50SHT', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-337LD50SHT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-337LD50SHT');
+</script>
+
+  </body>
+
+</html>
