@@ -11,6 +11,8 @@ tags = [
 
 +++
 
+![Header](/images/hot-dog-cart.jpg)
+
 In my day-to-day role at [Observe Inc.](https://observeinc.com/), I work with a lot of vendors. I’ve been involved in all stages of vendor management, from procurement to rollout to renewal, for both software and contractors. The following is a list of tips I’ve found helpful when dealing with them. Whether they’re a SaaS provider, recruiter, web development shop, or more this advice is generally applicable.
 
 ### Output is proportional to input
