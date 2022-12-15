@@ -1,7 +1,7 @@
 +++
 author = "Ross Lazerowitz"
 title = "6 Tips for Dealing With Vendors"
-date = "2022-08-17"
+date = "2022-12-15"
 description = "A few quick tips for managing vendors"
 images = ["/images/hot-dog-cart.jpg"]
 tags = [

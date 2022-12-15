@@ -6,20 +6,11 @@
     <description>Recent content in Tags on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>GTM</title>
-      <link>https://rosslazer.com/tags/gtm/</link>
-      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosslazer.com/tags/gtm/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>startup-life</title>
       <link>https://rosslazer.com/tags/startup-life/</link>
-      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://rosslazer.com/tags/startup-life/</guid>
       <description></description>
@@ -28,9 +19,18 @@
     <item>
       <title>tips-and-tricks</title>
       <link>https://rosslazer.com/tags/tips-and-tricks/</link>
-      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://rosslazer.com/tags/tips-and-tricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GTM</title>
+      <link>https://rosslazer.com/tags/gtm/</link>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosslazer.com/tags/gtm/</guid>
       <description></description>
     </item>
     
