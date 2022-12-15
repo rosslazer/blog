@@ -62,5 +62,5 @@ Usage-based pricing lets you take advantage of this paradox.
 *[*Credit - *MILLIONS PAY AWS TO GIVE AMAZON AN INSURMOUNTABLE IT ADVANTAGE](https://www.nextplatform.com/2022/02/04/millions-pay-aws-to-give-amazon-an-insurmountable-it-advantage/)*
 
 ## ‘Til next time
-In part 2 I’m going to cover how to actually implement usage-based pricing. If you choose to go down this path a lot of technical and process work lies ahead.
+In [part 2](/posts/use-it-or-lose-it-p2) I’m going to cover how to actually implement usage-based pricing. If you choose to go down this path a lot of technical and process work lies ahead.
 

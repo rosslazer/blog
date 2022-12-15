@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips-and-tricks on Ross Lazerowitz</title>
+    <link>https://rosslazer.com/tags/tips-and-tricks/</link>
+    <description>Recent content in tips-and-tricks on Ross Lazerowitz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/tags/tips-and-tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6 Tips for Dealing With Vendors</title>
+      <link>https://rosslazer.com/posts/vendor_management/</link>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosslazer.com/posts/vendor_management/</guid>
+      <description>In my day-to-day role at Observe Inc., I work with a lot of vendors. I’ve been involved in all stages of vendor management, from procurement to rollout to renewal, for both software and contractors. The following is a list of tips I’ve found helpful when dealing with them. Whether they’re a SaaS provider, recruiter, web development shop, or more this advice is generally applicable.
+Output is proportional to input This is a tip I got from our CEO during my first month.</description>
+    </item>
+    
+  </channel>
+</rss>
