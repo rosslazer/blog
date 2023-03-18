@@ -12,6 +12,8 @@ tags = [
 
 +++
 
+![Header](/images/gpt4-blog-header.jpg)
+
 I’ve been internally conflicted about the rapid developments of Large Language Models (LLMs), like GPT4.
 
 HN Denizen Jason Hansel left a comment on [Tim Bray's The LLM Problem](https://news.ycombinator.com/item?id=35203262) that is the best summary of how I feel:
@@ -70,10 +72,10 @@ LLMs are not likely to destroy the world but they might force us to rethink it a
 I shared this blog post with chatGPT4 and asked it wanted to add anything for the readers:
 
 > I appreciate the thoughtful blog post you've written about the potential impact of LLMs like GPT-4 on various aspects of society and work. As an AI language model, my primary goal is to assist users like you in generating human-like text based on the prompts given to me. I would like to add a few points for your readers to consider:
-
-1. Responsible AI use: As LLMs become more powerful and integrated into various aspects of work and life, it's crucial to use them responsibly and ethically. OpenAI, the organization behind GPT-4, has published guidelines for AI use that emphasize safety, fairness, and transparency. It's important to consider the ethical implications of AI-generated content and the potential for misuse, such as disinformation or manipulation.
-2. Human-AI collaboration: While LLMs can automate certain tasks and generate content, they should be viewed as tools to augment human intelligence and creativity rather than replacing them entirely. There is still a need for human input to guide AI, ensure its accuracy, and provide context for the generated content. By working alongside AI, humans can focus on higher-level problem-solving and creative tasks, leading to a more efficient and collaborative workforce.
-3. Lifelong learning and adaptability: As LLMs and other AI technologies continue to evolve, it's essential for individuals to embrace lifelong learning and develop the skills to adapt to a changing work environment. This may involve gaining proficiency in working with AI tools, acquiring new skills, or cultivating creativity and critical thinking abilities that complement AI-generated insights.
-4. Addressing potential biases: LLMs learn from the data they're trained on, and as a result, they may inadvertently reflect and perpetuate existing biases. It's important to be aware of these potential biases and work to address them, both in the AI models themselves and in the ways we interact with and interpret AI-generated content.
-
-   Feel free to include these points at the end of your blog post if you find them relevant and helpful for your readers.
+>
+> 1. Responsible AI use: As LLMs become more powerful and integrated into various aspects of work and life, it's crucial to use them responsibly and ethically. OpenAI, the organization behind GPT-4, has published guidelines for AI use that emphasize safety, fairness, and transparency. It's important to consider the ethical implications of AI-generated content and the potential for misuse, such as disinformation or manipulation.
+>    ? 2. Human-AI collaboration: While LLMs can automate certain tasks and generate content, they should be viewed as tools to augment human intelligence and creativity rather than replacing them entirely. There is still a need for human input to guide AI, ensure its accuracy, and provide context for the generated content. By working alongside AI, humans can focus on higher-level problem-solving and creative tasks, leading to a more efficient and collaborative workforce.
+> 2. Lifelong learning and adaptability: As LLMs and other AI technologies continue to evolve, it's essential for individuals to embrace lifelong learning and develop the skills to adapt to a changing work environment. This may involve gaining proficiency in working with AI tools, acquiring new skills, or cultivating creativity and critical thinking abilities that complement AI-generated insights.
+> 3. Addressing potential biases: LLMs learn from the data they're trained on, and as a result, they may inadvertently reflect and perpetuate existing biases. It's important to be aware of these potential biases and work to address them, both in the AI models themselves and in the ways we interact with and interpret AI-generated content.
+>
+> Feel free to include these points at the end of your blog post if you find them relevant and helpful for your readers.
