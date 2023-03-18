@@ -40,11 +40,15 @@ A point solution is a piece of software that solves an individual pain point. Fo
 ## 3. More Drivers, Fewer Passengers
 
 Politicians love to talk about the decline of U.S. manufacturing jobs, and often overlook what happened in agriculture. Over the 50 years, the U.S. agricultural output has been going up without more inputs (labor, land, machinery, etc).
+
 ![Agricultural Productivity in the U.S.](/images/agro-output.jpg)
-*[*This chart appears in the ERS data product, Agricultural Productivity in the U.S., updated January 2020](https://www.hortidaily.com/article/9191638/productivity-growth-is-the-major-source-of-growth-in-u-s-agricultural-output//)\_
+*[*This chart appears in the ERS data product, Agricultural Productivity in the U.S., updated January 2020](https://www.hortidaily.com/article/9191638/productivity-growth-is-the-major-source-of-growth-in-u-s-agricultural-output/)\*
+
 One of those inputs is labor and as you can see with this chart it’s gone down significantly since the 40s. It’s not surprising that the advancements in industrial farming like mechanization, genetic engineering, chemical engineering, and irrigation have made it so that fewer people can produce more food.
+
 ![Agricultural Productivity in the U.S.](/images/fl_frmwk.gif)
-_[\*USDA Farm Labor: Number of Farms and Workers by Decade, US](https://www.nass.usda.gov/Charts_and_Maps/Farm_Labor/fl_frmwk.php)\*
+*[*USDA Farm Labor: Number of Farms and Workers by Decade, US](https://www.nass.usda.gov/Charts_and_Maps/Farm_Labor/fl_frmwk.php)\*
+
 I think we are going to see this same sort of trend in historically safe jobs like software engineering and marketing. Even with the recent spat of layoffs, there’s still a massive developer shortage (Citation needed). If LLMs allow knowledge workers to do more with less, I think we are going to see LLMs become the “tractor” of the white-collar worker.
 
 Here’s a fun example from my own work. I currently manage a small content marketing team. As a team, we’ve been looking at ways we can use LLMs to automate some of the mundane work. The team is excited about this because it makes them more productive at the thing they can be original at. It also means that we might not need to hire as many writers. As soon as we get access to GPT4’s larger context window we plan to feed it all of our blog, whitepapers, and ad copy. We are hoping it can help us with the following:
