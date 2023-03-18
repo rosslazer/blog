@@ -12,7 +12,7 @@ tags = [
 
 +++
 
-![Header](/images/gpt4-blog-header.jpg)
+![Header](/images/gpt4-blog-header.png)
 
 I’ve been internally conflicted about the rapid developments of Large Language Models (LLMs), like GPT4.
 
@@ -40,7 +40,7 @@ A point solution is a piece of software that solves an individual pain point. Fo
 ## 3. More Drivers, Fewer Passengers
 
 Politicians love to talk about the decline of U.S. manufacturing jobs, and often overlook what happened in agriculture. Over the 50 years, the U.S. agricultural output has been going up without more inputs (labor, land, machinery, etc).
-![Agricultural Productivity in the U.S.](/images/agro-output.png)
+![Agricultural Productivity in the U.S.](/images/agro-output.jpg)
 *[*This chart appears in the ERS data product, Agricultural Productivity in the U.S., updated January 2020](https://www.hortidaily.com/article/9191638/productivity-growth-is-the-major-source-of-growth-in-u-s-agricultural-output//)\_
 One of those inputs is labor and as you can see with this chart it’s gone down significantly since the 40s. It’s not surprising that the advancements in industrial farming like mechanization, genetic engineering, chemical engineering, and irrigation have made it so that fewer people can produce more food.
 ![Agricultural Productivity in the U.S.](/images/fl_frmwk.gif)
