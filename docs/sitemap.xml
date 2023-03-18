@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rosslazer.com/tags/ai/</loc>
+    <lastmod>2023-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/tags/gpt/</loc>
+    <lastmod>2023-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/posts/gpt4/</loc>
+    <lastmod>2023-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/tags/llms/</loc>
+    <lastmod>2023-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/posts/</loc>
+    <lastmod>2023-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/</loc>
+    <lastmod>2023-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/tags/</loc>
+    <lastmod>2023-03-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rosslazer.com/posts/vendor_management/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rosslazer.com/posts/</loc>
-    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rosslazer.com/</loc>
-    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rosslazer.com/tags/startup-life/</loc>
-    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rosslazer.com/tags/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rosslazer.com/tags/tips-and-tricks/</loc>

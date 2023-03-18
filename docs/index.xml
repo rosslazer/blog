@@ -6,7 +6,22 @@
     <description>Recent content on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT4: How I Learned to Stop Worrying and Love LLMs</title>
+      <link>https://rosslazer.com/posts/gpt4/</link>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosslazer.com/posts/gpt4/</guid>
+      <description>&lt;p&gt;I’ve been internally conflicted about the rapid developments of Large Language Models (LLMs), like GPT4.&lt;/p&gt;
+&lt;p&gt;HN Denizen Jason Hansel left a comment on &lt;a href=&#34;https://news.ycombinator.com/item?id=35203262&#34;&gt;Tim Bray&amp;rsquo;s The LLM Problem&lt;/a&gt; that is the best summary of how I feel:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“I agree with the general point that there is, at present, far too much uncertainty to understand the long-term effects of LLMs. It will be somewhere on the scale between &amp;ldquo;semi-useful toy,&amp;rdquo; &amp;ldquo;ends white-collar work as we know it,&amp;rdquo; and &amp;ldquo;accidentally destroys mankind.&amp;rdquo; Beyond that, there isn&amp;rsquo;t much we can say.” - &lt;a href=&#34;https://news.ycombinator.com/item?id=35205175&#34;&gt;https://news.ycombinator.com/item?id=35205175&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Given the rapid developments coming out of OpenAI, I think it’s unlikely that LLMs just end up being useful toys. There’s been a lot of goalposts shifting about what intelligence means. A few years ago it was the Turing test, now that GPT4 has &lt;a href=&#34;https://openai.com/research/gpt-4&#34;&gt;blown away nearly every standardized test&lt;/a&gt;, I think it’s safe to say that white-collar work is at serious risk. As far as accidentally destroying humanity, that’s a toss up, but there isn’t a ton of evidence for that right now.&lt;/p&gt;
+&lt;p&gt;Here are a few of my predictions for what it means for white-collar work and the future of information management.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>6 Tips for Dealing With Vendors</title>
       <link>https://rosslazer.com/posts/vendor_management/</link>
