@@ -30,7 +30,7 @@ Here are a few of my predictions for what it means for white-collar work and the
 
 ## 1. The End of Google Search
 
-It’s no secret that Google is losing the war against SEO. A majority of my google search queries now contain “reddit” at the end of the query so I don’t get an article written by someone trying to sell me something. With the proliferation of LLMs, I predict this problem is going to go past a point of no return. Now anyone with a computer can automate SEO and I don’t think Google will be able to detect it. People can now feed content they write (assuming they don’t just auto generate it) into an SEO suggestion tool, and have GPT automatically edit the article. Even asking people to add linkbacks to their posts can be automated. Users will have no choice but to use forums like Redit or chat with LLMs to get answers.
+It’s no secret that Google is losing the war against SEO. A majority of my google search queries now contain “reddit” at the end of the query so I don’t get an article written by someone trying to sell me something. With the proliferation of LLMs, I predict this problem is going to go past a point of no return. Now anyone with a computer can automate SEO and I don’t think Google will be able to detect it. People can now feed content they write (assuming they don’t just auto generate it) into an SEO suggestion tool, and have GPT automatically edit the article. Even asking people to add linkbacks to their posts can be automated. Users will have no choice but to use forums like Reddit or chat with LLMs to get answers.
 
 ## 2. Point Solution Carnage
 
@@ -39,12 +39,12 @@ A point solution is a piece of software that solves an individual pain point. Fo
 
 ## 3. More Drivers, Fewer Passengers
 
-Politicians love to talk about the decline of U.S. manufacturing jobs, and often overlook what happened in agriculture. Over the 50 years, the U.S. agricultural output has been going up without more inputs (labor, land, machinery, etc).
+Politicians love to talk about the decline of U.S. manufacturing jobs, and often overlook what happened in agriculture. Over the past 50 years, the U.S. agricultural output has been going up without more inputs (labor, land, machinery, etc).
 
 ![Agricultural Productivity in the U.S.](/images/agro-output.jpg)
 *[*This chart appears in the ERS data product, Agricultural Productivity in the U.S., updated January 2020](https://www.hortidaily.com/article/9191638/productivity-growth-is-the-major-source-of-growth-in-u-s-agricultural-output/)\*
 
-One of those inputs is labor and as you can see with this chart it’s gone down significantly since the 40s. It’s not surprising that the advancements in industrial farming like mechanization, genetic engineering, chemical engineering, and irrigation have made it so that fewer people can produce more food.
+One of those inputs is labor and as you can see with this chart it’s gone down significantly since the 1940s. It’s not surprising that the advancements in industrial farming like mechanization, genetic engineering, chemical engineering, and irrigation have made it so that fewer people can produce more food.
 
 ![Agricultural Productivity in the U.S.](/images/fl_frmwk.gif)
 *[*USDA Farm Labor: Number of Farms and Workers by Decade, US](https://www.nass.usda.gov/Charts_and_Maps/Farm_Labor/fl_frmwk.php)\*
@@ -71,7 +71,7 @@ What happens when [LLMs can teach themselves tools](https://arxiv.org/abs/2302.0
 
 # Closing thoughts and reflections on originality
 
-LLMs are not likely to destroy the world but they might force us to rethink it a bit. With more and more mundane and algorithmic tasks getting automated we might want to ask ourselves what kind of intelligence we value as a society. Is it really a standardized test? If not, education is going to have to rapidly adapt both in the measurement and teaching of original thought. The answer to all of these questions will lie with the new generation of kids who are going to grow up learning how to talk to LLMs and get them to do what they want. Just like the current crop of “digital natives” use the internet and technology in ways their parents have a hard time understanding. The future is uncertain but I’m bullish on the improvement in quality of life this technology might be able to bring.
+LLMs are not likely to destroy the world but they might force us to rethink it a bit. With more and more mundane and algorithmic tasks getting automated we might want to ask ourselves what kind of intelligence we value as a society. Is it really a standardized test? If not, education is going to have to rapidly adapt both in the measurement and pedagogy of original thought. The answer to all of these questions will lie with the new generation of kids who are going to grow up learning how to talk to LLMs and get them to do what they want. Just like the current crop of “digital natives” use the internet and technology in ways their parents have a hard time understanding. The future is uncertain but I’m bullish on the improvement in quality of life this technology might be able to bring.
 
 I shared this blog post with chatGPT4 and asked it wanted to add anything for the readers:
 
