@@ -6,7 +6,17 @@
     <description>Recent content on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Yellow: The Secret Weapon for Tackling Product Disarray</title>
+      <link>https://rosslazer.com/posts/code-yellow/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosslazer.com/posts/code-yellow/</guid>
+      <description>Code Yellow: The Secret Weapon for Tackling Product Disarray Are you a startup that&amp;rsquo;s been heads down racing to build features and now finds yourself with more bugs than time or people? Or maybe you are a larger company that’s let your product fall into disarray? If this resonates with you, it&amp;rsquo;s time to call for a Code Yellow and establish a War Room.
+What is a Code Yellow? The term &amp;ldquo;Code Yellow&amp;rdquo; seems to have originated at Google [1].</description>
+    </item>
+    
     <item>
       <title>GPT4: How I Learned to Stop Worrying and Love LLMs</title>
       <link>https://rosslazer.com/posts/gpt4/</link>

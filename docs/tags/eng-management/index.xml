@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eng-management on Ross Lazerowitz</title>
+    <link>https://rosslazer.com/tags/eng-management/</link>
+    <description>Recent content in eng-management on Ross Lazerowitz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/tags/eng-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Yellow: The Secret Weapon for Tackling Product Disarray</title>
+      <link>https://rosslazer.com/posts/code-yellow/</link>
+      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosslazer.com/posts/code-yellow/</guid>
+      <description>Code Yellow: The Secret Weapon for Tackling Product Disarray Are you a startup that&amp;rsquo;s been heads down racing to build features and now finds yourself with more bugs than time or people? Or maybe you are a larger company that’s let your product fall into disarray? If this resonates with you, it&amp;rsquo;s time to call for a Code Yellow and establish a War Room.
+What is a Code Yellow? The term &amp;ldquo;Code Yellow&amp;rdquo; seems to have originated at Google [1].</description>
+    </item>
+    
+  </channel>
+</rss>
