@@ -44,7 +44,7 @@ To help visualize this process, I’ve created a fictional Code Yellow Memo as a
 
 ## Example Code Yellow Memo
 
-The Product Usability (PU) code yellow was declared today at the company kickoff meeting by John and Todd. We will hold a daily war room starting Feb 15th during the next 90 days to address first-day SWE usability issues.
+The Product Usability (PU) code yellow was declared today at the company kickoff meeting by Emma and Todd. We will hold a daily war room starting Feb 15th during the next 90 days to address first-day SWE usability issues.
 
 The exit criteria of the code yellow/war room:
 
@@ -64,7 +64,7 @@ The operating model of the war room:
 
 Workstreams:
 
-- Coding workstream with UI/API engineers to fix bugs and code the design stream, led by John, code name Raid
+- Coding workstream with UI/API engineers to fix bugs and code the design stream, led by Emma, code name Raid
 - Design workstream with PM/designer/engineers for log, metric, dashboard new workflows, to get to approved designs and then hand it over to the Raid stream, led by Ross, code name Workshop
 
 Meetings:
@@ -79,7 +79,7 @@ Communication:
 - Coding workstream: pu-war-room-raid (private)
 - Design workstream: pu-war-room-workshop(private)
 - Daily snippets are sent to the whole company via email by the operator group
-- Monthly update to Board by John
+- Monthly update to Board by Emma
 
 Raid workstream war room rules:
 
@@ -87,7 +87,7 @@ Raid workstream war room rules:
 - The assigned developer should own the bug end 2 end, making sure requirement, design, and testing are all done properly, please don’t assign the bug out unless it means transferring coding ownership
 - Please update your assigned bug initially with Understanding of the problem, Solution sketch, ETA (expected time to arrive), and then daily progress afterward
 - On avg, we are hoping to complete an average of 1-2 bugs/day per engineer, you can pace accordingly. For large bugs that take weeks, try to break them down to help size and also parallelize
-- If you are blocked, please @ your manager and John to unblock any time of the day
+- If you are blocked, please @ your manager and Emma to unblock any time of the day
 - If you have questions on clarifying requirement that is not addressed during the standup, please come to the office hours 4-5 pm Left Room physically or virtually starting this Wed
 
 ### FAQ
