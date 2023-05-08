@@ -79,7 +79,7 @@ Communication:
 - Coding workstream: pu-war-room-raid (private)
 - Design workstream: pu-war-room-workshop(private)
 - Daily snippets are sent to the whole company via email by the operator group
-- Monthly update to Board by Jeremy
+- Monthly update to Board by John
 
 Raid workstream war room rules:
 
@@ -95,7 +95,7 @@ Raid workstream war room rules:
 - What happens with the normal six-week sprint?
   - While the war room is one of the most important focuses of the next two sprints, we will still have a regular program and plans for the sprint, so that the important work that is NOT part of the war room can continue with the defined cadence.
 - Do I expect to drop everything if I was assigned a critical war room bug?
-  - If you don’t have critical customer bugs or production issues, you are expected to prioritize war room bugs. When there is a conflict and you are not sure, please ask in the pmf-war-room or the raid channel. The other way is to do a quick triage of the bug and then ask what to do next.
+  - If you don’t have critical customer bugs or production issues, you are expected to prioritize war room bugs. When there is a conflict and you are not sure, please ask in the pu-war-room or the raid channel. The other way is to do a quick triage of the bug and then ask what to do next.
 - What if I am not clear on the requirement of the bug?
   - Please try to come up with the design, when doubt, tag the operators for clarification
 - Why do you use war-room1? Is there a war-room2?
