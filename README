@@ -1,0 +1,6 @@
+# Install
+
+## Init the theme submodule
+git submodule init
+git submodule update
+
