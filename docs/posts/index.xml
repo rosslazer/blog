@@ -6,15 +6,24 @@
     <description>Recent content in Posts on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fine-tuning GPT3.5-turbo based on 140k slack messages</title>
+      <link>https://rosslazer.com/posts/fine-tuning/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosslazer.com/posts/fine-tuning/</guid>
+      <description>I recently started using the Smart Connections plugin for the Obsidian note-taking app. It generates embeddings for all of my notes and allows me to chat with them using GPT. Over the weekend I used it to generate Twitter and LinkedIn posts for a blog piece I was working on. While it produced quality content it had a lot of trouble replicating my writing style. The completions didn&amp;rsquo;t feel like something I would write myself.</description>
+    </item>
+    
     <item>
       <title>Code Yellow: The Secret Weapon for Tackling Product Disarray</title>
       <link>https://rosslazer.com/posts/code-yellow/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rosslazer.com/posts/code-yellow/</guid>
-      <description>Code Yellow: The Secret Weapon for Tackling Product Disarray    Are you a startup that&amp;rsquo;s been heads down racing to build features and now finds yourself with more bugs than time or people? Or maybe you are a larger company that’s let your product fall into disarray? If this resonates with you, it&amp;rsquo;s time to call for a Code Yellow and establish a War Room.
-What is a Code Yellow?</description>
+      <description>Code Yellow: The Secret Weapon for Tackling Product Disarray Are you a startup that&amp;rsquo;s been heads down racing to build features and now finds yourself with more bugs than time or people? Or maybe you are a larger company that’s let your product fall into disarray? If this resonates with you, it&amp;rsquo;s time to call for a Code Yellow and establish a War Room.
+What is a Code Yellow? The term &amp;ldquo;Code Yellow&amp;rdquo; seems to have originated at Google [1].</description>
     </item>
     
     <item>
@@ -40,7 +49,7 @@ What is a Code Yellow?</description>
       
       <guid>https://rosslazer.com/posts/vendor_management/</guid>
       <description>In my day-to-day role at Observe Inc., I work with a lot of vendors. I’ve been involved in all stages of vendor management, from procurement to rollout to renewal, for both software and contractors. The following is a list of tips I’ve found helpful when dealing with them. Whether they’re a SaaS provider, recruiter, web development shop, or more this advice is generally applicable.
-Output is proportional to input    This is a tip I got from our CEO during my first month.</description>
+Output is proportional to input This is a tip I got from our CEO during my first month.</description>
     </item>
     
     <item>
