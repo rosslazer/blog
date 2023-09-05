@@ -3,7 +3,7 @@ author = "Ross Lazerowitz"
 title = "Fine-tuning GPT3.5-turbo based on 140k slack messages"
 date = "2023-09-04"
 description = "Using GPT to emulate my writing style"
-images = ["/images/gpt-post.jpeg"]
+images = ["/images/gpt-post.jpg"]
 tags = [
     "AI",
     "GPT",
