@@ -6,7 +6,16 @@
     <description>Recent content in AI on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fine-tuning GPT3.5-turbo based on 140k slack messages</title>
+      <link>https://rosslazer.com/posts/fine-tuning/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rosslazer.com/posts/fine-tuning/</guid>
+      <description>I recently started using the Smart Connections plugin for the Obsidian note-taking app. It generates embeddings for all of my notes and allows me to chat with them using GPT. Over the weekend I used it to generate Twitter and LinkedIn posts for a blog piece I was working on. While it produced quality content it had a lot of trouble replicating my writing style. The completions didn&amp;rsquo;t feel like something I would write myself.</description>
+    </item>
+    
     <item>
       <title>GPT4: How I Learned to Stop Worrying and Love LLMs</title>
       <link>https://rosslazer.com/posts/gpt4/</link>

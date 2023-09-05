@@ -5,8 +5,9 @@ date = "2023-09-04"
 description = "Using GPT to emulate my writing style"
 images = ["/images/gpt-post.jpeg"]
 tags = [
-    "eng-management",
-]
+    "AI",
+    "GPT",
+    "LLMs"]
 
 +++
 
