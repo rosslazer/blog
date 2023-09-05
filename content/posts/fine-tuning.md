@@ -88,7 +88,7 @@ There are a few challenges with the data because there's no clear request/respon
 
 #### Data Prep Script
 
-Curious readers can find the data muunging script [here.](https://gist.github.com/rosslazer/9fc358f37f8a552fa49d47968d70a98b)
+Curious readers can find the data munging script [here.](https://gist.github.com/rosslazer/9fc358f37f8a552fa49d47968d70a98b)
 The fine-tuning job was surprisingly easy to set up. All I had to do was upload the JSONL file and kick off a fine-tuning job. It ran for roughly 3 hours on a total of 10,399,747 tokens for a total of $83.20
 
 #### Fine Tuning Job Script
