@@ -27,31 +27,40 @@ Leaving Observe is a much harder decision than joining. Four years ago I joined 
 
 When I announced I was leaving a few people asked me what my biggest lessons learned were. This got me thinking so I jotted a few down. I'm always stunned by how simple-sounding but hard-to-follow these lessons are. I could go on for hours with these but you don't have time for that, so here's a TLDR.
 
-**Don't be clever**
+### Don't be clever
+
 Nearly every single time we got in trouble for a product decision it was because we were being too clever. When you get a lot of really smart people together there tends to be some sort of natural drift towards "clever" or "cool" ideas. My advice is to always be on the lookout for these because a lot of clever ideas can steer the intuitiveness of the product off course quickly.
 
-**If you can't hire you can't lead**
+### If you can't hire you can't lead
+
 Credit for this quote goes to [John McMahon](https://www.linkedin.com/in/johnmcmahon1/), who is a member of the Observe Board and frequently referred to as the "The Godfather" of enterprise software sales for his creation of [MEDICC](https://meddic.academy/definition-meddic/). This one can be a slow-motion disaster. Imagine a new manager joining a fast-growing startup. They will face tremendous pressure to grow the team quickly in the face of a highly competitive job market and hopefully, a high-quality bar set by the company. If they fail to hire senior enough people or the right amount of people quickly enough the entire company will eventually be hamstrung by this team. It's important to root out managers like this before they become the failure point for an organization.
 
-**Hire people better than you**
+### Hire people better than you
+
 This isn't an option it's a necessity. We've all heard the trope that A players hire B players, and B players hire C players., but there's a lot more to it than preventing a "bozo explosion." If you need to prepare your company for scale you're going to need people that can scale and adapt.
 
-**Marketing can be a cargo cult**
-Admittedly I was very ignorant about marketing before I joined but was surprised to learn how little data is used to make decisions. I'm convinced that FOMO drives a lot of marketing activities. Someone sees a competitor did X and then they rush to go do it. The way to combat this is to focus on measuring what gets sellers' meetings or converts to signups. But it's a double-edged sort because a lot of the other touches lead up to a lead. I'd love to see improvements to measuring multi-touch attribution because all of the tools available today have large implementation times and costs.
+### Marketing can be a cargo cult
 
-**Focus on what matters**
+Admittedly I was very ignorant about marketing before I joined but was surprised to learn how little data is used to make decisions. I'm convinced that FOMO drives a lot of marketing activities. Someone sees a competitor did X and then they rush to go do it. The way to combat this is to focus on measuring what gets sellers' meetings or converts to signups. But it's a double-edged sword because a lot of the other touches lead up to a lead. I'd love to see improvements to measuring multi-touch attribution because all of the tools available today have large implementation times and costs.
+
+### Focus on what matters
+
 Observe's north star metric was the sales productivity number plain and simple. This provided us with a simple litmus test for every product and marketing decision. If something was proposed and we couldn't see a clear line to improving that number it wasn't worth doing right now. Lately, I've noticed a lot of startups getting deep into vanity projects like brand and PR before they've hit product market fit. My advice is to set a quantitative goal and make sure everything you do is in support of it.
 
-**Be honest and treat everyone like adults**
+### Be honest and treat everyone like adults
+
 One of the reasons I joined Observe was because I saw a different kind of executive mold in Jeremy. I've worked at a few large companies full of really smart people who get talked down to by the executive team. It's probably the norm, not the exception that executives need to "message" something to the broader org that borderlines on lying. Don't do this! Treat everyone equally with respect and intelligence. If you have to share hard news you're better off confronting it head-on than hoping the really smart people you hired won't put two and two together.
 
-**Write shit down**
+### Write shit down
+
 A large part of the reason I wrote this post was because of feedback I received that I didn't write things down enough. When you sit down and write things down you find flaws in your reasoning earlier and build durability. I'm grateful that Observe has a culture of writing things down because it made it so much easier to onboard new employees and understand decisions in the past.
 
-**No one is above the work**
+### No one is above the work
+
 Everyone at Observe, managers and ICs alike, does the work. On any given day you will see the CEO making PowerPoints, a CRO making training, a VP of engineering fixing bugs, and a VP of marketing sending out invitations to events. It's a great cultural value and a filter for hiring. It was astounding how many people I screened who were senior and from large companies that didn't do anything anymore. There is no room for these kinds of people at a startup and they will create a toxic culture in that management is above the work.
 
-**You can't change your customers** - Contribution from Jacob
+### You can't change your customers - Contribution from Jacob
+
 You can’t “will” a user or customer to behave the way you think they should, and you shouldn’t be surprised when they push back on them. Any time you ask them to do something different, you need to give them a good reason if you want to avoid friction, pushback, and objections, and ultimately sap the velocity out of your customer engagements. You, as a founder, have limited innovation tokens to spend your time on. The corollary is that your users and customers have limited interest and attention in investing in all the innovative things you try to put in front of them. Pick your battles wisely given that limited attention.
 
 # What's Next
