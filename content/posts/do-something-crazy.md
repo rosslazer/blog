@@ -14,8 +14,6 @@ tags = [
 ![Observe Team 2019](/images/observe-team-2019.jpg)
 
 After 4 years at Observe, I'm excited to announce that I'm starting a company with my longtime friend and abettor [Nick DiRienzo](https://nickdirienzo.com)! Today marks a unique occasion where an unexpected encounter from nearly ten years ago profoundly altered the course of my life. In 2012 I met Nick DiRienzo at a Startup Weekend hackathon in Rochester NY. Working late into the night fueled by knockoff energy drinks and pizza we became friends and by the next morning left without exchanging numbers. As fate would have it we would run into each other again, this time in a different state at a Google intern event in Mountain View, CA. This time we got each other's contact info. Nick has been one of my best friends ever since and we've bonded over our shared love of technology and careers in technology. There's no other person in the world that I could see myself starting a company with other than Nick.
-![[Pasted image 20230914111552.png]]
-Caption: From one of our many failed pitches
 
 ## Why Now?
 
@@ -52,6 +50,9 @@ A large part of the reason I wrote this post was because of feedback I received 
 
 **No one is above the work**
 Everyone at Observe, managers and ICs alike, does the work. On any given day you will see the CEO making PowerPoints, a CRO making training, a VP of engineering fixing bugs, and a VP of marketing sending out invitations to events. It's a great cultural value and a filter for hiring. It was astounding how many people I screened who were senior and from large companies that didn't do anything anymore. There is no room for these kinds of people at a startup and they will create a toxic culture in that management is above the work.
+
+**You can't change your customers** - Contribution from Jacob
+You can’t “will” a user or customer to behave the way you think they should, and you shouldn’t be surprised when they push back on them. Any time you ask them to do something different, you need to give them a good reason if you want to avoid friction, pushback, and objections, and ultimately sap the velocity out of your customer engagements. You, as a founder, have limited innovation tokens to spend your time on. The corollary is that your users and customers have limited interest and attention in investing in all the innovative things you try to put in front of them. Pick your battles wisely given that limited attention.
 
 # What's Next
 
