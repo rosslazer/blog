@@ -6,40 +6,41 @@
     <description>Recent content on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Pivoting</title>
+      <link>https://rosslazer.com/posts/on-pivoting/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/posts/on-pivoting/</guid>
+      <description>After 3 spirited months of grinding my co-founder Nick and I have decided to pivot. In September we were accepted into the South Park Commons founder fellowship and our journey started. We had a lot of ideas but after stack ranking them according to founder-market fit, technical risk, and market risk, we went with our AI Observability idea. The plan was to sprint on the idea for 3 months and see if we could hit the goals that we set.</description>
+    </item>
     <item>
       <title>Do Something Crazy: From First PM to Founder</title>
       <link>https://rosslazer.com/posts/do-something-crazy/</link>
       <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/do-something-crazy/</guid>
       <description>After 4 years at Observe, I&amp;rsquo;m excited to announce that I&amp;rsquo;m starting a company with my longtime friend and abettor Nick DiRienzo! Today marks a unique occasion where an unexpected encounter from nearly ten years ago profoundly altered the course of my life. In 2012 I met Nick DiRienzo at a Startup Weekend hackathon in Rochester NY. Working late into the night fueled by knockoff energy drinks and pizza we became friends and by the next morning left without exchanging numbers.</description>
     </item>
-    
     <item>
       <title>Fine-tuning GPT3.5-turbo based on 140k slack messages</title>
       <link>https://rosslazer.com/posts/fine-tuning/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/fine-tuning/</guid>
       <description>I recently started using the Smart Connections plugin for the Obsidian note-taking app. It generates embeddings for all of my notes and allows me to chat with them using GPT. Over the weekend I used it to generate Twitter and LinkedIn posts for a blog piece I was working on. While it produced quality content it had a lot of trouble replicating my writing style. The completions didn&amp;rsquo;t feel like something I would write myself.</description>
     </item>
-    
     <item>
       <title>Code Yellow: The Secret Weapon for Tackling Product Disarray</title>
       <link>https://rosslazer.com/posts/code-yellow/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/code-yellow/</guid>
-      <description>Code Yellow: The Secret Weapon for Tackling Product Disarray    Are you a startup that&amp;rsquo;s been heads down racing to build features and now finds yourself with more bugs than time or people? Or maybe you are a larger company that’s let your product fall into disarray? If this resonates with you, it&amp;rsquo;s time to call for a Code Yellow and establish a War Room.
-What is a Code Yellow?</description>
+      <description>Code Yellow: The Secret Weapon for Tackling Product Disarray Are you a startup that&amp;rsquo;s been heads down racing to build features and now finds yourself with more bugs than time or people? Or maybe you are a larger company that’s let your product fall into disarray? If this resonates with you, it&amp;rsquo;s time to call for a Code Yellow and establish a War Room.
+What is a Code Yellow? The term &amp;ldquo;Code Yellow&amp;rdquo; seems to have originated at Google [1].</description>
     </item>
-    
     <item>
       <title>GPT4: How I Learned to Stop Worrying and Love LLMs</title>
       <link>https://rosslazer.com/posts/gpt4/</link>
       <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/gpt4/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://rosslazer.com/images/gpt4-blog-header.png&#34; alt=&#34;Header&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I’ve been internally conflicted about the rapid developments of Large Language Models (LLMs), like GPT4.&lt;/p&gt;
@@ -50,31 +51,25 @@ What is a Code Yellow?</description>
 &lt;p&gt;Given the rapid developments coming out of OpenAI, I think it’s unlikely that LLMs just end up being useful toys. There’s been a lot of goalposts shifting about what intelligence means. A few years ago it was the Turing test, now that GPT4 has &lt;a href=&#34;https://openai.com/research/gpt-4&#34;&gt;blown away nearly every standardized test&lt;/a&gt;, I think it’s safe to say that white-collar work is at serious risk. As far as accidentally destroying humanity, that’s a toss up, but there isn’t a ton of evidence for that right now.&lt;/p&gt;
 &lt;p&gt;Here are a few of my predictions for what it means for white-collar work and the future of information management.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>6 Tips for Dealing With Vendors</title>
       <link>https://rosslazer.com/posts/vendor_management/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/vendor_management/</guid>
       <description>In my day-to-day role at Observe Inc., I work with a lot of vendors. I’ve been involved in all stages of vendor management, from procurement to rollout to renewal, for both software and contractors. The following is a list of tips I’ve found helpful when dealing with them. Whether they’re a SaaS provider, recruiter, web development shop, or more this advice is generally applicable.
-Output is proportional to input    This is a tip I got from our CEO during my first month.</description>
+Output is proportional to input This is a tip I got from our CEO during my first month.</description>
     </item>
-    
     <item>
       <title>Use It or Lose It: Implementing Usage-Based Pricing (Part 2)</title>
       <link>https://rosslazer.com/posts/use-it-or-lose-it-p2/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/use-it-or-lose-it-p2/</guid>
       <description>&lt;p&gt;In &lt;a href=&#34;https://rosslazer.com/posts/use-it-or-lose-it-p1&#34;&gt;part 1&lt;/a&gt;, I talked about why you should implement a usage-based pricing model, now let’s get into the meat of how you actually implement one.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Use It or Lose It: Why Usage-Based Pricing (Part 1)</title>
       <link>https://rosslazer.com/posts/use-it-or-lose-it-p1/</link>
       <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/use-it-or-lose-it-p1/</guid>
       <description>&lt;p&gt;Inspired much by the success of companies like Snowflake, &lt;a href=&#34;https://observeinc.com/&#34;&gt;Observe Inc.&lt;/a&gt; set out to build a usage based pricing model. I’ve learned a ton from this process and continue to do so each week. This blog series will catalog our journey and things I wish we had known on day 1. It’s broken up into 3 parts:&lt;/p&gt;
 &lt;ol&gt;
@@ -83,45 +78,36 @@ Output is proportional to input    This is a tip I got from our CEO during my fi
 &lt;li&gt;Its challenges&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Startup Tooling</title>
       <link>https://rosslazer.com/posts/startup-tooling/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/startup-tooling/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/3oKIPqsXYcdjcBcXL2/giphy-downsized-large.gif&#34; alt=&#34;Tool gif&#34;&gt;&lt;/p&gt;
 &lt;p&gt;As the first product hire at &lt;a href=&#34;https://observeinc.com/&#34;&gt;Observe Inc.&lt;/a&gt;, I was tasked with bringing in a lot of tooling to solve problems. I’ve put together this list in the hopes of making the journey easier for others. Feel free to submit a PR if there’s more you think I should add.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://rosslazer.com/about/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/about/</guid>
       <description>I&amp;rsquo;m currently building something new at ROSNIK AI with my longtime friend Nick DiRienzo. In prior lives I was Head of Product at Observe Inc, and a PM at Splunk. This blog was put together to capture my ramblings and lessons learned about startups, product management, and product marketing.
 Outside of work you will find me reading and watching anything scifi fiction, brewing beer, and cycling.</description>
     </item>
-    
     <item>
       <title>Contact</title>
       <link>https://rosslazer.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/contact/</guid>
       <description>Follow me, @rosslazer or email me at rosslazer dot gmail dot com.</description>
     </item>
-    
     <item>
       <title>Favorite Books</title>
       <link>https://rosslazer.com/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/books/</guid>
       <description>The following is a list of books that have had a profound impact on me. I&amp;rsquo;m always looking out for exceptional reads, so please send them my way.
-Software &amp;amp; Engineering     The Mythical Man-Month: Essays on Software Engineering by Frederick P. Brooks Jr. Peopleware: Productive Projects and Teams by Tom DeMarco | Goodreads The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal Crossing the Chasm: Marketing and Selling Disruptive Products to Mainstream Customers by Geoffrey A.</description>
+Software &amp;amp; Engineering The Mythical Man-Month: Essays on Software Engineering by Frederick P. Brooks Jr. Peopleware: Productive Projects and Teams by Tom DeMarco | Goodreads The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal Crossing the Chasm: Marketing and Selling Disruptive Products to Mainstream Customers by Geoffrey A.</description>
     </item>
-    
   </channel>
 </rss>

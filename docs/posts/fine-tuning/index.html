@@ -67,7 +67,7 @@
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.120.4">
   </head>
 
   
@@ -177,66 +177,66 @@ My first attempt to get it to write in my style was to do so with various prompt
   </a>
 </h2>
 <p>Over the last four years, I&rsquo;ve amassed 140k Slack messages at Observe Inc. I downloaded a dump of all of my Slack messages and wrote a script to process it. This created a dump for every direct message or group thread. The data format looks roughly like this:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[
-  {
-    &#34;client_msg_id&#34;: &#34;e59a1118-8164-4eb9-9623-e4114502ba30&#34;,
-    &#34;type&#34;: &#34;message&#34;,
-    &#34;text&#34;: &#34;\u003c@UMQN69N8M\u003e - How are you doing?
-    &#34;user&#34;: &#34;U01AFPBSPCKX&#34;,
-    &#34;ts&#34;: &#34;1644956438.392969&#34;,
-    &#34;blocks&#34;: [
-      {
-        &#34;type&#34;: &#34;rich_text&#34;,
-        &#34;block_id&#34;: &#34;euXh&#34;,
-        &#34;elements&#34;: [
-          {
-            &#34;type&#34;: &#34;rich_text_section&#34;,
-            &#34;elements&#34;: [
-              {
-                &#34;type&#34;: &#34;user&#34;,
-                &#34;user_id&#34;: &#34;UMQN78NMB&#34;
-              },
-              {
-                &#34;type&#34;: &#34;text&#34;,
-                &#34;text&#34;: &#34; -  How are you doing?&#34;
-              },
-              {
-                &#34;type&#34;: &#34;link&#34;,
-                &#34;url&#34;: &#34;https://foobar.com
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    &#34;team&#34;: &#34;T7B732R0S&#34;
-  },
-  {
-    &#34;client_msg_id&#34;: &#34;6590516f-ff2b-4268-aef2-f7bfadd0a250&#34;,
-    &#34;type&#34;: &#34;message&#34;,
-    &#34;text&#34;: &#34;I&#39;m fine and you?&#34;,
-    &#34;user&#34;: &#34;UMQN78NMB&#34;,
-    &#34;ts&#34;: &#34;1644957762.921829&#34;,
-    &#34;blocks&#34;: [
-      {
-        &#34;type&#34;: &#34;rich_text&#34;,
-        &#34;block_id&#34;: &#34;1Xntl&#34;,
-        &#34;elements&#34;: [
-          {
-            &#34;type&#34;: &#34;rich_text_section&#34;,
-            &#34;elements&#34;: [
-              {
-                &#34;type&#34;: &#34;text&#34;,
-                &#34;text&#34;: &#34;I&#39;m fine and you?&#34;
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    ....
-]
-</code></pre></div><p>There are a few challenges with the data because there&rsquo;s no clear request/response. A user could be responding to the last message or the last series of messages. On the response side of things, every time a user types a message and presses enter, Slack treats it as a separate event. Given that this is a fun side project I opted to go with very simple (and flawed) logic to handle these cases. I even used GPT-4 to help me generate the Python script because I was feeling extra lazy. It results in some duplicates but it was good enough to get this going. You can view the script below. The goal is to shape each chat interaction into an event that looks like</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>[
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    &#34;client_msg_id&#34;: &#34;e59a1118-8164-4eb9-9623-e4114502ba30&#34;,
+</span></span><span style="display:flex;"><span>    &#34;type&#34;: &#34;message&#34;,
+</span></span><span style="display:flex;"><span>    &#34;text&#34;: &#34;\u003c@UMQN69N8M\u003e - How are you doing?
+</span></span><span style="display:flex;"><span>    &#34;user&#34;: &#34;U01AFPBSPCKX&#34;,
+</span></span><span style="display:flex;"><span>    &#34;ts&#34;: &#34;1644956438.392969&#34;,
+</span></span><span style="display:flex;"><span>    &#34;blocks&#34;: [
+</span></span><span style="display:flex;"><span>      {
+</span></span><span style="display:flex;"><span>        &#34;type&#34;: &#34;rich_text&#34;,
+</span></span><span style="display:flex;"><span>        &#34;block_id&#34;: &#34;euXh&#34;,
+</span></span><span style="display:flex;"><span>        &#34;elements&#34;: [
+</span></span><span style="display:flex;"><span>          {
+</span></span><span style="display:flex;"><span>            &#34;type&#34;: &#34;rich_text_section&#34;,
+</span></span><span style="display:flex;"><span>            &#34;elements&#34;: [
+</span></span><span style="display:flex;"><span>              {
+</span></span><span style="display:flex;"><span>                &#34;type&#34;: &#34;user&#34;,
+</span></span><span style="display:flex;"><span>                &#34;user_id&#34;: &#34;UMQN78NMB&#34;
+</span></span><span style="display:flex;"><span>              },
+</span></span><span style="display:flex;"><span>              {
+</span></span><span style="display:flex;"><span>                &#34;type&#34;: &#34;text&#34;,
+</span></span><span style="display:flex;"><span>                &#34;text&#34;: &#34; -  How are you doing?&#34;
+</span></span><span style="display:flex;"><span>              },
+</span></span><span style="display:flex;"><span>              {
+</span></span><span style="display:flex;"><span>                &#34;type&#34;: &#34;link&#34;,
+</span></span><span style="display:flex;"><span>                &#34;url&#34;: &#34;https://foobar.com
+</span></span><span style="display:flex;"><span>              }
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>          }
+</span></span><span style="display:flex;"><span>        ]
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    ],
+</span></span><span style="display:flex;"><span>    &#34;team&#34;: &#34;T7B732R0S&#34;
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    &#34;client_msg_id&#34;: &#34;6590516f-ff2b-4268-aef2-f7bfadd0a250&#34;,
+</span></span><span style="display:flex;"><span>    &#34;type&#34;: &#34;message&#34;,
+</span></span><span style="display:flex;"><span>    &#34;text&#34;: &#34;I&#39;m fine and you?&#34;,
+</span></span><span style="display:flex;"><span>    &#34;user&#34;: &#34;UMQN78NMB&#34;,
+</span></span><span style="display:flex;"><span>    &#34;ts&#34;: &#34;1644957762.921829&#34;,
+</span></span><span style="display:flex;"><span>    &#34;blocks&#34;: [
+</span></span><span style="display:flex;"><span>      {
+</span></span><span style="display:flex;"><span>        &#34;type&#34;: &#34;rich_text&#34;,
+</span></span><span style="display:flex;"><span>        &#34;block_id&#34;: &#34;1Xntl&#34;,
+</span></span><span style="display:flex;"><span>        &#34;elements&#34;: [
+</span></span><span style="display:flex;"><span>          {
+</span></span><span style="display:flex;"><span>            &#34;type&#34;: &#34;rich_text_section&#34;,
+</span></span><span style="display:flex;"><span>            &#34;elements&#34;: [
+</span></span><span style="display:flex;"><span>              {
+</span></span><span style="display:flex;"><span>                &#34;type&#34;: &#34;text&#34;,
+</span></span><span style="display:flex;"><span>                &#34;text&#34;: &#34;I&#39;m fine and you?&#34;
+</span></span><span style="display:flex;"><span>              }
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>          }
+</span></span><span style="display:flex;"><span>        ]
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    ],
+</span></span><span style="display:flex;"><span>    ....
+</span></span><span style="display:flex;"><span>]
+</span></span></code></pre></div><p>There are a few challenges with the data because there&rsquo;s no clear request/response. A user could be responding to the last message or the last series of messages. On the response side of things, every time a user types a message and presses enter, Slack treats it as a separate event. Given that this is a fun side project I opted to go with very simple (and flawed) logic to handle these cases. I even used GPT-4 to help me generate the Python script because I was feeling extra lazy. It results in some duplicates but it was good enough to get this going. You can view the script below. The goal is to shape each chat interaction into an event that looks like</p>
 <p><code>{&quot;messages&quot;: [{&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;You are Ross. He is a product manager at Observe inc. He responds to messages from his coworkers on slack and is helpful.&quot;}, {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: COLLATED_PRECEDING_SLACK_MESSAGES}, {&quot;role&quot;: &quot;assistant&quot;, &quot;content&quot;: COLLATED_USER_MESSAGES}]} </code></p>
 <h4 id="data-prep-script">
   Data Prep Script
@@ -252,11 +252,10 @@ The fine-tuning job was surprisingly easy to set up. All I had to do was upload 
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h4>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">new file openai.FineTuningJob.create(training_file=&#34;file-jo5xMgDc8pyuP3S6IC24440T&#34;, model=&#34;gpt-3.5-turbo&#34;)
-
-openai.FineTuningJob.create(training_file=&#34;file-jo5xMgDc8pyuP3S6IC24440T&#34;, model=&#34;gpt-3.5-turbo&#34;)
-
-</code></pre></div><h2 id="where-things-get-weird">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>new file openai.FineTuningJob.create(training_file=&#34;file-jo5xMgDc8pyuP3S6IC24440T&#34;, model=&#34;gpt-3.5-turbo&#34;)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>openai.FineTuningJob.create(training_file=&#34;file-jo5xMgDc8pyuP3S6IC24440T&#34;, model=&#34;gpt-3.5-turbo&#34;)
+</span></span></code></pre></div><h2 id="where-things-get-weird">
   Where things get weird
   <a class="heading-link" href="#where-things-get-weird">
     <i class="fa fa-link" aria-hidden="true"></i>
@@ -332,7 +331,7 @@ I can read it again</p>
 
     
       
-      <script src="/js/coder.min.39a51230dce2ac866c049b52573e38bf60666af4bc63c1bdf203b9b2d95b1cd6.js" integrity="sha256-OaUSMNzirIZsBJtSVz44v2BmavS8Y8G98gO5stlbHNY="></script>
+      <script src="/js/coder.min.9cf2dbf9b6989ef8eae941ffb4231c26d1dc026bca38f1d19fdba50177d8a9ac.js" integrity="sha256-nPLb&#43;baYnvjq6UH/tCMcJtHcAmvKOPHRn9ulAXfYqaw="></script>
     
 
     

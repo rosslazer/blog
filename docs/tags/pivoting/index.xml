@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pivoting on Ross Lazerowitz</title>
+    <link>https://rosslazer.com/tags/pivoting/</link>
+    <description>Recent content in pivoting on Ross Lazerowitz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rosslazer.com/tags/pivoting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Pivoting</title>
+      <link>https://rosslazer.com/posts/on-pivoting/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/posts/on-pivoting/</guid>
+      <description>After 3 spirited months of grinding my co-founder Nick and I have decided to pivot. In September we were accepted into the South Park Commons founder fellowship and our journey started. We had a lot of ideas but after stack ranking them according to founder-market fit, technical risk, and market risk, we went with our AI Observability idea. The plan was to sprint on the idea for 3 months and see if we could hit the goals that we set.</description>
+    </item>
+  </channel>
+</rss>

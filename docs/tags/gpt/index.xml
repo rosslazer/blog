@@ -6,21 +6,19 @@
     <description>Recent content in GPT on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/tags/gpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rosslazer.com/tags/gpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fine-tuning GPT3.5-turbo based on 140k slack messages</title>
       <link>https://rosslazer.com/posts/fine-tuning/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/fine-tuning/</guid>
       <description>I recently started using the Smart Connections plugin for the Obsidian note-taking app. It generates embeddings for all of my notes and allows me to chat with them using GPT. Over the weekend I used it to generate Twitter and LinkedIn posts for a blog piece I was working on. While it produced quality content it had a lot of trouble replicating my writing style. The completions didn&amp;rsquo;t feel like something I would write myself.</description>
     </item>
-    
     <item>
       <title>GPT4: How I Learned to Stop Worrying and Love LLMs</title>
       <link>https://rosslazer.com/posts/gpt4/</link>
       <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/posts/gpt4/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://rosslazer.com/images/gpt4-blog-header.png&#34; alt=&#34;Header&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I’ve been internally conflicted about the rapid developments of Large Language Models (LLMs), like GPT4.&lt;/p&gt;
@@ -31,6 +29,5 @@
 &lt;p&gt;Given the rapid developments coming out of OpenAI, I think it’s unlikely that LLMs just end up being useful toys. There’s been a lot of goalposts shifting about what intelligence means. A few years ago it was the Turing test, now that GPT4 has &lt;a href=&#34;https://openai.com/research/gpt-4&#34;&gt;blown away nearly every standardized test&lt;/a&gt;, I think it’s safe to say that white-collar work is at serious risk. As far as accidentally destroying humanity, that’s a toss up, but there isn’t a ton of evidence for that right now.&lt;/p&gt;
 &lt;p&gt;Here are a few of my predictions for what it means for white-collar work and the future of information management.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

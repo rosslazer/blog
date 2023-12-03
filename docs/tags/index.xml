@@ -6,105 +6,91 @@
     <description>Recent content in Tags on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rosslazer.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rosslazer.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>lessons-learned</title>
       <link>https://rosslazer.com/tags/lessons-learned/</link>
-      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://rosslazer.com/tags/lessons-learned/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>pivoting</title>
+      <link>https://rosslazer.com/tags/pivoting/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/tags/pivoting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>startup-life</title>
+      <link>https://rosslazer.com/tags/startup-life/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/tags/startup-life/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Observe</title>
       <link>https://rosslazer.com/tags/observe/</link>
       <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/observe/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>startup-life</title>
-      <link>https://rosslazer.com/tags/startup-life/</link>
-      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://rosslazer.com/tags/startup-life/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>AI</title>
       <link>https://rosslazer.com/tags/ai/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GPT</title>
       <link>https://rosslazer.com/tags/gpt/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/gpt/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LLMs</title>
       <link>https://rosslazer.com/tags/llms/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/llms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>eng-management</title>
       <link>https://rosslazer.com/tags/eng-management/</link>
       <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/eng-management/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>tips-and-tricks</title>
       <link>https://rosslazer.com/tags/tips-and-tricks/</link>
       <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/tips-and-tricks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GTM</title>
       <link>https://rosslazer.com/tags/gtm/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/gtm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>usage-based-pricing</title>
       <link>https://rosslazer.com/tags/usage-based-pricing/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/usage-based-pricing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>tooling</title>
       <link>https://rosslazer.com/tags/tooling/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://rosslazer.com/tags/tooling/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
