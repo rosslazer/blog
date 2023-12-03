@@ -3,7 +3,7 @@ author = "Ross Lazerowitz"
 title = "On Pivoting"
 date = "2023-10-03"
 description = "A candid reflection of one tech startup's journey so far."
-images = ["/images/rosnik.jpng"]
+images = ["/images/rosnik-header.png"]
 tags = [
     "startup-life",
     "pivoting",
@@ -12,6 +12,7 @@ tags = [
 +++
 
 ![In Memoriam Observe](/images/rosnik.png)
+
 After 3 spirited months of grinding my co-founder Nick and I have decided to pivot. In September we were accepted into the South Park Commons founder fellowship and our journey started. We had a lot of ideas but after stack ranking them according to founder-market fit, technical risk, and market risk, we went with our AI Observability idea. The plan was to sprint on the idea for 3 months and see if we could hit the goals that we set. Timeboxing was important so we could optimize the amount of "shots on goals" we had with our runway.
 
 It all started with getting meetings. We met with over 35 companies and reached out to hundreds. We quickly closed our first design partner and started building. Before long we had a real user and were helping them analyze millions of AI generations a month. Feedback was flowing in and we were feeling pretty good about the idea for a time. 
