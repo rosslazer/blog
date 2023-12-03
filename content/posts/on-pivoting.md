@@ -13,7 +13,7 @@ tags = [
 
 ![In Memoriam Observe](/images/rosnik.png)
 
-After 3 spirited months of grinding my co-founder Nick and I have decided to pivot. In September we were accepted into the South Park Commons founder fellowship and our journey started. We had a lot of ideas but after stack ranking them according to founder-market fit, technical risk, and market risk, we went with our AI Observability idea. The plan was to sprint on the idea for 3 months and see if we could hit the goals that we set. Timeboxing was important so we could optimize the amount of "shots on goals" we had with our runway.
+After 3 spirited months of grinding my co-founder Nick and I have decided to pivot. In September we were [accepted into the South Park Commons Founder Fellowship](https://rosslazer.com/posts/do-something-crazy/) and our journey started. We had a lot of ideas but after stack ranking them according to founder-market fit, technical risk, and market risk, we went with our AI Observability idea. The plan was to sprint on the idea for 3 months and see if we could hit the goals that we set. Timeboxing was important so we could optimize the amount of "shots on goals" we had with our runway.
 
 It all started with getting meetings. We met with over 35 companies and reached out to hundreds. We quickly closed our first design partner and started building. Before long we had a real user and were helping them analyze millions of AI generations a month. Feedback was flowing in and we were feeling pretty good about the idea for a time. 
 
@@ -41,7 +41,9 @@ Once you get your first user everything gets better. There's no need to philosop
 Starting a company is incredibly stressful and anyone that tells you otherwise is lying. Stress building up can compound already terse situations and lead to blow-ups. The best way to mitigate this is to continually have hard discussions with your co-founder. For us, it ensured that our disagreements would blow and get resolved in a day instead of lingering for weeks or months.
 
 
+
 >“Running a start-up is like chewing glass and staring into the abyss. After a while, you stop staring, but the glass chewing never ends”. -Elon Musk
+
 
 ## What we messed up
 **Asking for money**
@@ -54,3 +56,5 @@ One of the few things you control as a founder is the market that you sell into.
 A lot of friends asked us if we were stressed out or bummed about pivoting. The answer unequivocally is no. Because we went into this with a process with clearly defined goals, It made the decision easy to make together. It sucks and will suck if it happens the next time around, but we won't be despondent.
 
 Our next idea is focused on helping companies mitigate social engineering attacks. We hope to share more in the next couple of months. 
+
++ I want to give a big shoutout to everyone who coached and supported us through this one: Elizabeth, Rebekah, Aditya, Evan, Clint, Panos, Divanny, Danh, and everyone in the [South Park Commons Founder Fellowship](https://www.southparkcommons.com/founder-fellowship) Fall ‘23 cohort.
