@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rosslazer.com/tags/ideas/</loc>
+    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rosslazer.com/tags/lessons-learned/</loc>
-    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/tags/observability/</loc>
+    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/posts/opps-in-o11y/</loc>
+    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/posts/</loc>
+    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/</loc>
+    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/tags/</loc>
+    <lastmod>2024-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rosslazer.com/posts/on-pivoting/</loc>
     <lastmod>2023-10-03T00:00:00+00:00</lastmod>
@@ -11,16 +29,7 @@
     <loc>https://rosslazer.com/tags/pivoting/</loc>
     <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rosslazer.com/posts/</loc>
-    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rosslazer.com/</loc>
-    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rosslazer.com/tags/startup-life/</loc>
-    <lastmod>2023-10-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rosslazer.com/tags/</loc>
     <lastmod>2023-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rosslazer.com/posts/do-something-crazy/</loc>

@@ -6,8 +6,16 @@
     <description>Recent content on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opportunities in Observability</title>
+      <link>https://rosslazer.com/posts/opps-in-o11y/</link>
+      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/posts/opps-in-o11y/</guid>
+      <description>After nearly a decade of working on observability products, I&amp;rsquo;m taking a much-needed break and working on the first human security company. With all those years under my belt, I still have an axe to grind. This post is my best effort to summarize some of the trends and opportunities I see in this space.
+An ELK-Like Stack Built on Top of an Open-Source Data Warehouse At Splunk, I watched the ELK stack take the world by storm.</description>
+    </item>
     <item>
       <title>On Pivoting</title>
       <link>https://rosslazer.com/posts/on-pivoting/</link>
@@ -91,7 +99,7 @@ Output is proportional to input This is a tip I got from our CEO during my first
       <link>https://rosslazer.com/about/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://rosslazer.com/about/</guid>
-      <description>I&amp;rsquo;m currently building something new at ROSNIK AI with my longtime friend Nick DiRienzo. In prior lives I was Head of Product at Observe Inc, and a PM at Splunk. This blog was put together to capture my ramblings and lessons learned about startups, product management, and product marketing.
+      <description>I&amp;rsquo;m currently building something new at Mirage Security with my longtime friend Nick DiRienzo. In prior lives I was Head of Product at Observe Inc, and a PM at Splunk. This blog was put together to capture my ramblings and lessons learned about startups, product management, and product marketing.
 Outside of work you will find me reading and watching anything scifi fiction, brewing beer, and cycling.</description>
     </item>
     <item>

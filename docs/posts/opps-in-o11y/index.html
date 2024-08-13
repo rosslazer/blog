@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' https://media.giphy.com; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/ https://github.githubassets.com/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://cdn.jsdelivr.net/ https://www.googletagmanager.com/ https://gist.github.com/; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com;">
+
+    
+
+    <meta name="author" content="Ross Lazerowitz">
+    <meta name="description" content="The next big thing in Observability won’t come from the old ways — it’s time for new approaches.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://rosslazer.com/images/o11y-header.jpg"/>
+
+<meta name="twitter:title" content="Opportunities in Observability"/>
+<meta name="twitter:description" content="The next big thing in Observability won’t come from the old ways — it’s time for new approaches."/>
+
+    <meta property="og:title" content="Opportunities in Observability" />
+<meta property="og:description" content="The next big thing in Observability won’t come from the old ways — it’s time for new approaches." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rosslazer.com/posts/opps-in-o11y/" /><meta property="og:image" content="https://rosslazer.com/images/o11y-header.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-08-13T00:00:00+00:00" />
+
+
+
+    <title>
+  Opportunities in Observability · Ross Lazerowitz
+</title>
+
+    
+      <link rel="canonical" href="https://rosslazer.com/posts/opps-in-o11y/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.002ee2378e14c7a68f1f0a53d9694ed252090987c4e768023fac694a4fc5f793.css" integrity="sha256-AC7iN44Ux6aPHwpT2WlO0lIJCYfE52gCP6xpSk/F95M=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.120.4">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Ross Lazerowitz
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/books/">Books</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://rosslazer.com/posts/opps-in-o11y/">
+              Opportunities in Observability
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2024-08-13T00:00:00Z'>
+                August 13, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/observability/">observability</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/ideas/">ideas</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/lessons-learned/">lessons-learned</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>After nearly a decade of working on observability products, I&rsquo;m taking a much-needed break and working on the first human security company. With all those years under my belt, I still have an axe to grind. This post is my best effort to summarize some of the trends and opportunities I see in this space.</p>
+<h2 id="an-elk-like-stack-built-on-top-of-an-open-source-data-warehouse">
+  An ELK-Like Stack Built on Top of an Open-Source Data Warehouse
+  <a class="heading-link" href="#an-elk-like-stack-built-on-top-of-an-open-source-data-warehouse">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>At Splunk, I watched the ELK stack take the world by storm. Elasticsearch, which started as a general search index, found a killer use case in log workloads. They quickly integrated open-source components like Logstash and Kibana, retooling their platform to offer a packaged experience for working with log data. This effort marked the first open-source initiative that viewed logging as a search indexing problem akin to Splunk&rsquo;s commercial offering. Elastic gained traction by giving away what I initially considered an inferior product and managed to monetize it successfully.</p>
+<p>It&rsquo;s now been 14 years since Elasticsearch launched, and the world of Observability has evolved. Log data volumes have surged, metrics and tracing have become staples, and security teams have started consolidating data into data lakes. As Elastic has focused on monetizing its cloud, managing self-hosted ELK has become increasingly challenging for Observability teams. This blind spot presents a wide opening and appetite for a new Open Source solution to Observability.</p>
+<p>Several new commercial offerings, like my previous employer, Observe, have capitalized on the fact that a cloud data warehouse can satisfy all Observability workloads with minimal management. By separating storage and compute, this technology makes storing large amounts of data economical without the hassle of maintaining and indexing, allowing for on-demand compute power. Vendors have noticed this and begun utilizing commercial data warehouses and open-source efforts like Clickhouse. This solves the engine part of the puzzle, but we still need a good UI and open-source data ingestion layer. While some have pointed Grafana at these warehouses with SQL, much of the essential complexity from the data warehouse layer must be integrated before offering an experience on par with solutions like Datadog.</p>
+<h2 id="ai-and-the-universal-abstraction-layer">
+  AI and The Universal Abstraction Layer
+  <a class="heading-link" href="#ai-and-the-universal-abstraction-layer">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Most data ingested into an Observability platform is emitted from searchable sources like Cloudwatch. Why do companies spend big bucks on ingesting tools like Datadog if the data is already searchable? The answer is simple - to make the data useful. With the shift to DevOps, engineers with little ops training are now responsible for monitoring and investigating their services. Instead of learning five different tools with various query interfaces, companies pay vendors like Datadog to simplify usage for their engineers.</p>
+<p>AI and Observability may be buzzwords, but their integration holds massive potential. An AI system capable of correlating data across different tools without centralizing it would enhance the user experience and save money. However, an AI would need help with five different query interfaces, just as an engineer would. Therefore, the key to building an &ldquo;AI On-Call Engineer&rdquo; lies in creating an abstraction layer for logs, metrics, traces, and configuration metadata across different providers. Once this exists, AI could triage issues effectively, solving the biggest problem: determining the right question to ask.</p>
+<p>This approach might eliminate the need to centralize data. Existing vendors have no incentive to build this since they prefer collecting all the data and avoiding stateful systems. This solution might also make mass anomaly detection a viable approach to finding issues. Historically, these systems have been too noisy, but auto-triaging the noise would mitigate this problem.</p>
+<h2 id="ai-assisted-instrumentation">
+  AI-Assisted Instrumentation
+  <a class="heading-link" href="#ai-assisted-instrumentation">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>One of the biggest challenges in Observability, and any analytics domain, is having good data. Engineers have long depended on messy log data lacking foresight, structure, or agreed-upon conventions. Today, the problem is worse; we’ve layered metrics and distributed tracing on top of logs, tasking engineers with little ops training with new responsibilities.</p>
+<p>Automated instrumentation is a lifeline for busy teams, providing visibility into their application in minutes. However, this data is limited. Automated instrumentation helps understand general functionality, but there&rsquo;s no free lunch when instrumenting an application&rsquo;s unique parts. Those unique parts usually represent the core value. There’s a significant opportunity for AI to assist here. Tools like co-pilot generate code, but no one has attempted to build a co-pilot for instrumenting applications. LLMs are already adept at generating comments. Building a co-pilot that enhances every engineer by judging and improving instrumentation is feasible with the right prompting and metadata.</p>
+<h2 id="looking-forward">
+  Looking forward
+  <a class="heading-link" href="#looking-forward">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>The observability space is ripe for innovation, but the same old approaches <a href="https://x.com/rosslazer/status/1819833199515804014">won&rsquo;t shape the future</a>. We need radical and different takes on the problem space. Cheaper logs, metrics, or tracing solutions, AI copilots for troubleshooting, or better mobile app monitoring won&rsquo;t cut it. We need transformative ideas that address the fundamental challenges in new ways. The technology to do so is here -  it’s just not evenly distributed yet.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+      2022 -
+    
+    2024
+     Ross Lazerowitz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.9cf2dbf9b6989ef8eae941ffb4231c26d1dc026bca38f1d19fdba50177d8a9ac.js" integrity="sha256-nPLb&#43;baYnvjq6UH/tCMcJtHcAmvKOPHRn9ulAXfYqaw="></script>
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-337LD50SHT"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-337LD50SHT', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-337LD50SHT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-337LD50SHT');
+</script>
+
+  </body>
+
+</html>
