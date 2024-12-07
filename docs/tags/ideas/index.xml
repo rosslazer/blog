@@ -6,8 +6,19 @@
     <description>Recent content in ideas on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://rosslazer.com/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trust = Intent &#43; Expertise: On Founder Fit</title>
+      <link>https://rosslazer.com/posts/founder-fit/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/posts/founder-fit/</guid>
+      <description>I met with two founders recently, exploring a new idea. As a habit, I always try to make time for founders. Paying forward the way other founders did for me in the early days. These founders were exploring an AI tooling idea, and I was a prospect.
+I asked them a simple question:
+“Have you ever built a production AI application like ours?”
+“No”
+“Ok, why should I trust you to provide a solution to monitor ours?</description>
+    </item>
     <item>
       <title>Opportunities in Observability</title>
       <link>https://rosslazer.com/posts/opps-in-o11y/</link>
