@@ -6,8 +6,15 @@
     <description>Recent content on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://rosslazer.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal AI</title>
+      <link>https://rosslazer.com/posts/personal-ai/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/posts/personal-ai/</guid>
+      <description>The Case for Personal AI It’s been an inspiring last few weeks for AI models. The major labs have released huge advancements in video generation and reasoning models. OpenAI’s o3 model scored a record high of 75.7% on the Abstraction and Reasoning Corpus (ARC), a series of brain twisters that are easy for humans but hard for AI. While these are significant developments, they are abstract to the average person.</description>
+    </item>
     <item>
       <title>Trust = Intent &#43; Expertise: On Founder Fit</title>
       <link>https://rosslazer.com/posts/founder-fit/</link>
