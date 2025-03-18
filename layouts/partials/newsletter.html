@@ -1,0 +1,57 @@
+<!-- Newsletter Subscription Form -->
+<div class="newsletter-container">
+  <h3>Subscribe to my Newsletter</h3>
+  <p>Stay updated with my latest posts and projects!</p>
+  <form action="https://formspree.io/f/your-formspree-endpoint" method="POST" class="newsletter-form">
+    <input type="email" name="email" placeholder="Your email address" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</div>
+
+<style>
+  .newsletter-container {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .newsletter-form input {
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .newsletter-form button {
+    padding: 0.75rem;
+    background-color: #212529;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #343a40;
+  }
+  
+  @media (min-width: 768px) {
+    .newsletter-form {
+      flex-direction: row;
+    }
+    
+    .newsletter-form input {
+      flex: 1;
+    }
+  }
+</style>

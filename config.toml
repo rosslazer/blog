@@ -74,7 +74,7 @@ customJS = []
 [params.csp]
 childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
-formaction = ["'self'"]
+formaction = ["'self'", "https://formspree.io/"]
 framesrc = ["'self'"]
 imgsrc = ["'self'", "https://media.giphy.com" ]
 objectsrc = ["'none'"]
@@ -95,7 +95,7 @@ scriptsrc = [
 ]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://www.google-analytics.com"]
+connectsrc = ["'self'", "https://www.google-analytics.com", "https://formspree.io/"]
 
 [taxonomies]
 category = "categories"
@@ -168,3 +168,8 @@ url = "contact/"
 name = "Books"
 weight = 5
 url = "books/"
+
+[[languages.en.menu.main]]
+name = "Newsletter"
+weight = 6
+url = "newsletter/"

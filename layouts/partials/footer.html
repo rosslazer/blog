@@ -1,0 +1,35 @@
+<footer class="footer">
+  {{- if .Site.Params.since }}
+    <span>{{ .Site.Params.since }} - {{ now.Format "2006" }}</span>
+  {{- else }}
+    <span>{{ now.Format "2006" }}</span>
+  {{- end }}
+
+  {{- if .Site.Params.author }}
+    <span>&middot;</span>
+    <span>{{ .Site.Params.author }}</span>
+  {{- end }}
+
+  {{- if .Site.Params.license }}
+    <span>&middot;</span>
+    <span>{{ .Site.Params.license | safeHTML }}</span>
+  {{- end }}
+
+  {{- if .Site.Params.commit }}
+    {{- $commitHash := (exec "git" "rev-parse" "--short" "HEAD") }}
+    <span>&middot;</span>
+    <span>
+      <a href="{{ .Site.Params.commit }}{{ $commitHash }}" target="_blank" rel="noopener">{{ $commitHash }}</a>
+    </span>
+  {{- end }}
+
+  <!-- Include the newsletter form -->
+  {{ partial "newsletter.html" . }}
+</footer>
+
+<style>
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+  }
+</style>
