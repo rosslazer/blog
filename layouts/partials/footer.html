@@ -1,0 +1,34 @@
+<footer class="footer">
+  {{- if .Site.Params.since }}
+    <span>{{ .Site.Params.since }} - {{ now.Format "2006" }}</span>
+  {{- else }}
+    <span>{{ now.Format "2006" }}</span>
+  {{- end }}
+
+  {{- if .Site.Params.author }}
+    <span>&middot;</span>
+    <span>{{ .Site.Params.author }}</span>
+  {{- end }}
+
+  {{- if .Site.Params.license }}
+    <span>&middot;</span>
+    <span>{{ .Site.Params.license | safeHTML }}</span>
+  {{- end }}
+
+  {{- if .Site.Params.commit }}
+    <span>&middot;</span>
+    <span>
+      <a href="{{ .Site.Params.commit }}" target="_blank" rel="noopener">{{ .Site.Title }}</a>
+    </span>
+  {{- end }}
+
+  <!-- Include the newsletter form -->
+  {{ partial "newsletter.html" . }}
+</footer>
+
+<style>
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+  }
+</style>
