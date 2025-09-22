@@ -1,7 +1,5 @@
 <footer class="footer">
-  <section class="container">
-    {{ partial "newsletter.html" . }}
-    
+  <section class="container">    
     ©
     {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}
       {{ .Site.Params.since }} -
