@@ -1,0 +1,55 @@
+section.wrong-about-list {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+}
+.wrong-about-list h1.title {
+  font-size: 2.3rem;
+  margin-bottom: 0.4rem;
+}
+.wrong-about-list .subtitle {
+  color: #888;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+.wrong-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.1rem;
+}
+.wrong-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.3rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  border-left: 5px solid #e57373;
+  transition: box-shadow 0.2s;
+}
+.wrong-item:hover {
+  box-shadow: 0 2px 12px rgba(229,115,115,0.08);
+}
+.wrong-item-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.wrong-date {
+  font-weight: 600;
+  color: #e57373;
+  font-size: 1.07rem;
+}
+.wrong-topic {
+  font-weight: 500;
+  color: #333;
+  font-size: 1.09rem;
+}
+.wrong-desc {
+  color: #444;
+  margin-top: 0.2rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}

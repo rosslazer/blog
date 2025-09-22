@@ -11,6 +11,9 @@ enableEmoji = true
 publishDir = "docs"
 googleAnalytics = 'G-337LD50SHT'
 enableInlineShortcodes = true
+# Allow HTML in Markdown
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
 author = "Ross Lazerowitz"
@@ -168,3 +171,8 @@ url = "contact/"
 name = "Books"
 weight = 5
 url = "books/"
+
+[[languages.en.menu.main]]
+name = "Wrong About"
+weight = 6
+url = "wrong-about/"

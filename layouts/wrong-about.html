@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="container page wrong-about-list">
+  <article>
+    <header>
+      <h1 class="title">Things I Was Wrong About</h1>
+      <p class="subtitle">A growing list of lessons learned the hard way.</p>
+    </header>
+    <div class="wrong-list">
+      {{ $items := split .Content "---" }}
+      {{ range $i, $item := $items }}
+        {{ $item = trim $item "\n " }}
+        {{ if gt (len $item) 0 }}
+        <div class="wrong-item">
+          {{ $date := findRE "\[(.*?)\]" $item }}
+          {{ $topic := findRE "Topic:\*\* (.*?)\\n" $item }}
+          {{ $wrong := findRE "What I was wrong about:\*\* (.*?)$" $item }}
+          <div class="wrong-item-header">
+            <span class="wrong-date">{{ index $date 0 | plainify | replace "[" "" | replace "]" "" }}</span>
+            <span class="wrong-topic">{{ if $topic }}{{ index $topic 0 | replace "Topic:** " "" }}{{ end }}</span>
+          </div>
+          <div class="wrong-desc">{{ if $wrong }}{{ index $wrong 0 | replace "What I was wrong about:** " "" }}{{ end }}</div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </article>
+</section>
+{{ end }}
