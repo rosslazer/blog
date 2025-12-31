@@ -6,8 +6,16 @@
     <description>Recent content in Posts on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://rosslazer.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Order Taking, Pain Killers, and Desperation: Avoiding Middling Startup Outcomes</title>
+      <link>https://rosslazer.com/posts/order-taking/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/posts/order-taking/</guid>
+      <description>When I started Mirage, I went hunting for &amp;ldquo;desperate&amp;rdquo; customers to validate direction. The playbook for enterprise seemed straightforward: cold outreach → design partners → first cohort. It worked. But then I learned a crucial lesson that turned my assumptions upside down: desperation != urgency.
+In enterprises, the person feeling the pain rarely controls the budget. Executive buyers get looped in, procurement cycles kick off, and committees form. If a problem isn&amp;rsquo;t truly urgent, these deals turn into molasses.</description>
+    </item>
     <item>
       <title>The Right to Your Feed</title>
       <link>https://rosslazer.com/posts/right-to-feed/</link>
