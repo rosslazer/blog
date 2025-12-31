@@ -172,7 +172,3 @@ name = "Books"
 weight = 5
 url = "books/"
 
-[[languages.en.menu.main]]
-name = "Wrong About"
-weight = 6
-url = "wrong-about/"
