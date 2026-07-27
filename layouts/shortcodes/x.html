@@ -1,0 +1,16 @@
+{{- $user := .Get "user" -}}
+{{- $id := .Get "id" -}}
+{{- $attrs := `class="twitter-tweet tw-align-center"` -}}
+{{- if eq (.Get "cards") "hidden" -}}
+{{- $attrs = printf `%s data-cards="hidden"` $attrs -}}
+{{- end -}}
+{{- $oembed := printf "https://publish.x.com/oembed?url=https://twitter.com/%s/status/%s&dnt=true&omit_script=true" $user $id -}}
+{{- $data := getJSON $oembed -}}
+{{- with $data -}}
+{{ replace .html `class="twitter-tweet"` $attrs | safeHTML }}
+{{- else -}}
+<blockquote {{ $attrs | safeHTMLAttr }}>
+  <a href="https://twitter.com/{{ $user }}/status/{{ $id }}">@{{ $user }} on X</a>
+</blockquote>
+{{- end -}}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -6,8 +6,16 @@
     <description>Recent content in AI on Ross Lazerowitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://rosslazer.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It Was Never About the Code</title>
+      <link>https://rosslazer.com/posts/it-was-never-about-the-code/</link>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/posts/it-was-never-about-the-code/</guid>
+      <description>There&amp;rsquo;s been a lot of discourse lately about the end of software. Comically named the &amp;ldquo;SaaSpocalypse&amp;rdquo; in reference to the meltdown of SaaS stock valuations in the public markets. Investor reactions have been stark, leading some to stop backing software companies at all. This meme is flawed because building products was never about the code in the first place. Nothing has fundamentally changed about building, marketing, and selling software.
+Let us consider for a moment that AI will replace all software.</description>
+    </item>
     <item>
       <title>The Right to Your Feed</title>
       <link>https://rosslazer.com/posts/right-to-feed/</link>

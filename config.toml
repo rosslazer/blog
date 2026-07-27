@@ -78,8 +78,8 @@ customJS = []
 childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
-framesrc = ["'self'"]
-imgsrc = ["'self'", "https://media.giphy.com" ]
+framesrc = ["'self'", "https://platform.twitter.com", "https://syndication.twitter.com"]
+imgsrc = ["'self'", "https://media.giphy.com", "https://pbs.twimg.com", "https://syndication.twitter.com" ]
 objectsrc = ["'none'"]
 stylesrc = [
   "'self'",
@@ -94,11 +94,12 @@ scriptsrc = [
   "https://www.google-analytics.com",
   "https://cdn.jsdelivr.net/",
   "https://www.googletagmanager.com/",
-  "https://gist.github.com/"
+  "https://gist.github.com/",
+  "https://platform.twitter.com"
 ]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://www.google-analytics.com"]
+connectsrc = ["'self'", "https://www.google-analytics.com", "https://platform.twitter.com", "https://syndication.twitter.com"]
 
 [taxonomies]
 category = "categories"

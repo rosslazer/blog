@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rosslazer.com/tags/ai/</loc>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/posts/it-was-never-about-the-code/</loc>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/posts/</loc>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/</loc>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/tags/startup-life/</loc>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rosslazer.com/tags/</loc>
+    <lastmod>2026-07-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rosslazer.com/posts/order-taking/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rosslazer.com/posts/</loc>
-    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rosslazer.com/tags/product-market-fit/</loc>
-    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rosslazer.com/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rosslazer.com/tags/sales/</loc>
@@ -19,12 +31,6 @@
   </url><url>
     <loc>https://rosslazer.com/tags/startups/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rosslazer.com/tags/</loc>
-    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rosslazer.com/tags/ai/</loc>
-    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rosslazer.com/tags/regulation/</loc>
     <lastmod>2025-09-22T00:00:00+00:00</lastmod>
@@ -39,9 +45,6 @@
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rosslazer.com/tags/lessons-learned/</loc>
-    <lastmod>2024-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rosslazer.com/tags/startup-life/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rosslazer.com/posts/founder-fit/</loc>
