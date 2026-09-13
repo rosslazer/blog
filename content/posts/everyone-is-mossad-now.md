@@ -3,7 +3,7 @@ author = "Ross Lazerowitz"
 title = "Everyone Is Mossad Now"
 date = "2026-09-13"
 description = "The Mossad or not-Mossad threat model just broke. Every attacker now has nation state level capabilities."
-images = ["/images/everyone-is-mossad-now.png"]
+images = ["/images/mossad-shock-trial.jpg"]
 tags = [
     "AI",
     "security",
