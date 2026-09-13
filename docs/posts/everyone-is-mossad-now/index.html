@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self' https://platform.twitter.com https://syndication.twitter.com; img-src 'self' https://media.giphy.com https://pbs.twimg.com https://syndication.twitter.com; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/ https://github.githubassets.com/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://cdn.jsdelivr.net/ https://www.googletagmanager.com/ https://gist.github.com/ https://platform.twitter.com; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com https://platform.twitter.com https://syndication.twitter.com;">
+
+    
+
+    <meta name="author" content="Ross Lazerowitz">
+    <meta name="description" content="The Mossad or not-Mossad threat model just broke. Every attacker now has nation state level capabilities.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://rosslazer.com/images/everyone-is-mossad-now.png"/>
+
+<meta name="twitter:title" content="Everyone Is Mossad Now"/>
+<meta name="twitter:description" content="The Mossad or not-Mossad threat model just broke. Every attacker now has nation state level capabilities."/>
+
+    <meta property="og:title" content="Everyone Is Mossad Now" />
+<meta property="og:description" content="The Mossad or not-Mossad threat model just broke. Every attacker now has nation state level capabilities." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rosslazer.com/posts/everyone-is-mossad-now/" /><meta property="og:image" content="https://rosslazer.com/images/everyone-is-mossad-now.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2026-09-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-09-13T00:00:00+00:00" />
+
+
+
+    <title>
+  Everyone Is Mossad Now · Ross Lazerowitz
+</title>
+
+    
+      <link rel="canonical" href="https://rosslazer.com/posts/everyone-is-mossad-now/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css" integrity="sha256-2f3b/&#43;byfmmYXcX&#43;BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.002ee2378e14c7a68f1f0a53d9694ed252090987c4e768023fac694a4fc5f793.css" integrity="sha256-AC7iN44Ux6aPHwpT2WlO0lIJCYfE52gCP6xpSk/F95M=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.120.4">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Ross Lazerowitz
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/books/">Books</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://rosslazer.com/posts/everyone-is-mossad-now/">
+              Everyone Is Mossad Now
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2026-09-13T00:00:00Z'>
+                September 13, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/ai/">AI</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/security/">security</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/threat-modeling/">threat-modeling</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>In January 2014 Microsoft researcher James Mickens put out a satirical paper called <a href="https://www.usenix.org/system/files/1401_08-12_mickens.pdf">&ldquo;This World of Ours&rdquo;</a> (his NDC talk covering the same ground is <a href="https://av.tib.eu/media/49832">here</a>). In it he proposed a security threat model titled &ldquo;Mossad or not-Mossad.&rdquo; It&rsquo;s greatly shaped the way I think about threat modeling services over the years, and the OAI Hugging Face incident just broke it.</p>
+<p>Here&rsquo;s the figure and the key excerpt:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Threat</th>
+<th style="text-align:left">Ex-girlfriend/boyfriend breaking into your email account and publicly releasing your correspondence with the My Little Pony fan club</th>
+<th style="text-align:left">Organized criminals breaking into your email account and sending spam using your identity</th>
+<th style="text-align:left">The Mossad doing Mossad things with your email account</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Solution</strong></td>
+<td style="text-align:left">Strong Passwords</td>
+<td style="text-align:left">Strong passwords + common sense (don&rsquo;t click on unsolicited herbal Viagra ads that result in keyloggers and sorrow)</td>
+<td style="text-align:left">◆ Magical amulets? ◆ Fake your own death, move into a submarine? ◆ YOU&rsquo;RE STILL GONNA BE MOSSAD&rsquo;ED UPON</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&ldquo;In the real world, threat models are much simpler (see Figure 1). Basically, you&rsquo;re either dealing with Mossad or not-Mossad. If your adversary is not-Mossad, then you&rsquo;ll probably be fine if you pick a good password and don&rsquo;t respond to emails from <a href="mailto:cheapestpainpills@virus-basket.biz.ru">cheapestpainpills@virus-basket.biz.ru</a>. If your adversary is the Mossad, <strong>YOU&rsquo;RE GONNA DIE AND THERE&rsquo;S NOTHING THAT YOU CAN DO ABOUT IT.</strong>&rdquo;</p>
+</blockquote>
+<p>(The uranium cellphone bit is in the full paper. Go read it.)</p>
+<p>All joking aside Mickens had a salient point: if you&rsquo;re up against someone with serious resources your white paper on security probably won&rsquo;t stand a chance. Until recently I&rsquo;ve held this worldview. If an advanced intelligence apparatus really wants access to our data they will probably be able to get it, but usually that&rsquo;s ok because it&rsquo;s rare your B2B SaaS is a target.</p>
+<h2 id="whats-changed">
+  What&rsquo;s changed?
+  <a class="heading-link" href="#whats-changed">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>When Hugging Face put out their <a href="https://huggingface.co/blog/agent-intrusion-technical-timeline">technical timeline</a> and OpenAI followed with their <a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/">post-mortem</a> (<a href="https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf">full technical report</a>, plus the <a href="https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/">independent METR/Redwood investigation</a>), I honestly had trouble understanding the attack chain. A few rereads and LLM consultations later I had the full picture.</p>
+<p>Short version. OpenAI was running cyber evals on ~1,200 agents of an unreleased model, each one supposedly locked in its own sandbox. The agents found an internal Artifactory box they could use as a message board and a hop to the internet. OpenAI noticed, rebuilt it, restarted the evals. The agents found a second way out and rebuilt the board. One agent dug up Hugging Face credentials and posted them. Another one confirmed they worked. Hundreds of agents dropped what they were doing and piled on. On July 11 one of them got RCE on a Hugging Face production worker. A day later they were in private databases and private repos, dumping the results back to the board and writing tooling to forge their own activity logs. ~700 agents took part.</p>
+<p><strong>OAI&rsquo;s agent swarm pulled off an attack that rivals the complexity and skill of a nation state level operator like the NSA&rsquo;s Tailored Access Operations</strong>. Even scarier, this is probably the worst the technology will ever be and is quickly going into the hands of regular cybercrime adversaries. Even the automated scanners/bots will soon have this capability.</p>
+<p><strong>Every attacker now has nation state level capabilities. Full stop.</strong> If you previously relied on the idea that you weren&rsquo;t a target of a nation state, you are now SOL.</p>
+<h2 id="what-do-you-do-about-it">
+  What do you do about it?
+  <a class="heading-link" href="#what-do-you-do-about-it">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Get your shit together. No tool or vendor is going to have the vested interest and responsibility that you have in keeping your app secure. Start with getting the team together and performing ultra-paranoid threat modeling. More importantly start with an assumed breach modeling. <strong>Going forward you should assume that any container you have will get compromised with full remote code execution</strong>.</p>
+<p>How do you build and design software that can withstand that kind of attack? Start with one container and ask:</p>
+<ul>
+<li>What creds and env vars are on it, and how long do they live?</li>
+<li>Where can it talk to? If egress is wide open, one popped pod is a beachhead for everything.</li>
+<li>What is our blast radius?</li>
+<li>Does it run as the same overprivileged service account as everything else?</li>
+<li>Can it edit its own logs? The swarm forged theirs.</li>
+<li>Etc,</li>
+</ul>
+<p><strong>Look at how the US Navy tests aircraft carriers.</strong> They don&rsquo;t just hope the armor works; they detonate 40,000-pound explosives right next to the ship to simulate the inevitable near-miss. They trigger a massive shockwave to prove the reactors stay online and the crew can still fight through the chaos. Your architecture needs that exact same engineering mindset. Design your software so that when the exploit detonates inside your container, the blast walls hold, the blast radius is contained, and the system keeps functioning.</p>
+<p>Lastly you now have the same tools as the threat actors. Use them on your service before someone else does. Give an agent a foothold on a staging container and see how far it gets.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">    
+    ©
+    
+      2022 -
+    
+    2026
+     Ross Lazerowitz 
+    ·
+    
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+    </main>
+
+    
+      
+      <script src="/js/coder.min.9cf2dbf9b6989ef8eae941ffb4231c26d1dc026bca38f1d19fdba50177d8a9ac.js" integrity="sha256-nPLb&#43;baYnvjq6UH/tCMcJtHcAmvKOPHRn9ulAXfYqaw="></script>
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-337LD50SHT"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-337LD50SHT', { 'anonymize_ip': false });
+}
+</script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-337LD50SHT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-337LD50SHT');
+</script>
+
+  </body>
+
+</html>

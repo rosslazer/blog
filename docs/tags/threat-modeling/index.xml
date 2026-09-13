@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>threat-modeling on Ross Lazerowitz</title>
+    <link>https://rosslazer.com/tags/threat-modeling/</link>
+    <description>Recent content in threat-modeling on Ross Lazerowitz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rosslazer.com/tags/threat-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Everyone Is Mossad Now</title>
+      <link>https://rosslazer.com/posts/everyone-is-mossad-now/</link>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://rosslazer.com/posts/everyone-is-mossad-now/</guid>
+      <description>In January 2014 Microsoft researcher James Mickens put out a satirical paper called &amp;ldquo;This World of Ours&amp;rdquo; (his NDC talk covering the same ground is here). In it he proposed a security threat model titled &amp;ldquo;Mossad or not-Mossad.&amp;rdquo; It&amp;rsquo;s greatly shaped the way I think about threat modeling services over the years, and the OAI Hugging Face incident just broke it.
+Here&amp;rsquo;s the figure and the key excerpt:
+Threat Ex-girlfriend/boyfriend breaking into your email account and publicly releasing your correspondence with the My Little Pony fan club Organized criminals breaking into your email account and sending spam using your identity The Mossad doing Mossad things with your email account Solution Strong Passwords Strong passwords + common sense (don&amp;rsquo;t click on unsolicited herbal Viagra ads that result in keyloggers and sorrow) ◆ Magical amulets?</description>
+    </item>
+  </channel>
+</rss>
