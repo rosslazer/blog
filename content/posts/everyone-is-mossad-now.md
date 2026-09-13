@@ -17,9 +17,9 @@ Here's the figure and the key excerpt:
 
 | Threat | Ex-girlfriend/boyfriend breaking into your email account and publicly releasing your correspondence with the My Little Pony fan club | Organized criminals breaking into your email account and sending spam using your identity | The Mossad doing Mossad things with your email account |
 | :---- | :---- | :---- | :---- |
-| **Solution** | Strong Passwords | Strong passwords + common sense (don't click on unsolicited herbal Viagra ads that result in keyloggers and sorrow) | ◆ Magical amulets? ◆ Fake your own death, move into a submarine? ◆ YOU'RE STILL GONNA BE MOSSAD'ED UPON |
+| **Solution** | Strong Passwords | Strong passwords + common sense (don't click on unsolicited herbal Viagra ads that result in keyloggers and sorrow) | ◆ Magical amulets?<br>◆ Fake your own death, move into a submarine?<br>◆ YOU'RE STILL GONNA BE MOSSAD'ED UPON |
 
-> "In the real world, threat models are much simpler (see Figure 1). Basically, you're either dealing with Mossad or not-Mossad. If your adversary is not-Mossad, then you'll probably be fine if you pick a good password and don't respond to emails from [cheapestpainpills@virus-basket.biz.ru](mailto:cheapestpainpills@virus-basket.biz.ru). If your adversary is the Mossad, **YOU'RE GONNA DIE AND THERE'S NOTHING THAT YOU CAN DO ABOUT IT.**"
+> "In the real world, threat models are much simpler (see Figure 1). Basically, you're either dealing with Mossad or not-Mossad. If your adversary is not-Mossad, then you'll probably be fine if you pick a good password and don't respond to emails from cheapestpainpills&#64;virus-basket.biz.ru. If your adversary is the Mossad, **YOU'RE GONNA DIE AND THERE'S NOTHING THAT YOU CAN DO ABOUT IT.**"
 
 (The uranium cellphone bit is in the full paper. Go read it.)
 
